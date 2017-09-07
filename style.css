@@ -1,0 +1,190 @@
+/* ==== Google font ==== */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700,800|Lato:100,400,300,700');
+
+
+body {
+    width: 80em;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+    color: #666;
+    background: #fff;
+	font-size: 16px;
+    line-height: 1.6em;
+    margin: 0 auto;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/* =========== Typo ============= */
+
+h1 {
+	font-size: 48px;
+    margin: 0 0 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+	color: #444;
+	line-height: 1.1em;
+}
+h2 {
+	font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+	line-height: 1.1em;
+}
+h3 {
+	font-size: 32px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+	/*color: #444;*/
+}
+h4 {
+	font-size: 28px;
+    margin: 0 0 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+	color: #444;
+	line-height: 1.1em;
+}
+h5 {
+	font-size: 24px;
+    margin: 0 0 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+	color: #444;
+	line-height: 1.1em;
+}
+h6 {
+	font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+	color: #444;
+	/*line-height: 1.1em;*/
+}
+
+
+/* =========== Hearde ============= */
+
+#header-top{
+    margin-top: 1em;
+}
+#header-end{
+    background-color: darkgray;
+    height: 0.3em;
+    clear: right;
+}
+
+/* =========== Menu ============= */
+
+#menu-separador {
+    float: right;
+}
+#menu {
+    text-align:center;
+    margin: 0 auto;
+    margin-top:20px;
+}
+
+#menubar ul li {
+    display: inline;
+    padding-top: 1em;
+    padding-left: 0.6em;
+    margin: 0px;
+    border-radius:2px;
+    font-weight: 600;
+}
+#menubar ul li:hover {
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+/* =========== Box ============= */
+
+
+#bannerBoxStart{
+    border-radius: 25px;
+    border: 2px solid darkgray;
+    padding-top: 22em;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 13em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 1em;
+    background-color: #C6C6C6;
+    color: white;
+}
+
+#sliderBoxStartContener{
+   
+}
+
+.sliderBoxStart{
+    border-radius: 25px;
+    border: 2px solid darkgray;
+    width: 22em; /* 25  */
+    height: 12em;
+    margin-top: 1em;
+    padding: 15em 1em 0.5em 1em;
+    color: white;
+    background-color: #C6C6C6;
+    
+    float: left;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+
+/* =========== Contact ============= */
+#infoBox-Conteiner{
+}
+
+#infoBox-image{
+    float: left;
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-bottom: 2em;
+    height: 20em;
+    width: 20em;
+    
+}
+
+#infoBox-text{
+    float: left;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: 16em;
+    width: 50em;
+    padding: 2em 2em 2em 2em;
+    
+}
+
+#infoBox-text-p{
+    font-size: 25px;
+    line-height:normal;
+}
+
+
+/* =========== Footer ============= */
+
+#footer-bar{
+    background-color: darkgray;
+    height: 0.3em;
+}
+#footer-text{
+    margin-top: -2em;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
