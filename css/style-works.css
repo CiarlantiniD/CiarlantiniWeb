@@ -1,0 +1,54 @@
+/* =========== Works ============= */
+
+.work-title{
+    
+}
+
+.works-flap{
+    margin: 0em 0.5em 0em 0.5em;
+}
+
+.works-img{
+    width: 0 auto;
+    height: 25em;
+    border-radius: 25px;
+    background-color: #C6C6C6;
+    border: 2px solid darkgray;
+    margin: -1em 0em 1em 0em;
+}
+
+.works-textDescription{
+    
+}
+
+.works-H4config{
+    margin-top: -0.8em;
+}
+
+.works-tools{
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    width: 6em;
+    height: 2em;
+    float: left;
+    text-align: center;
+    padding-top: 0.4em;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+}
+
+.works-ss{
+    float: left;
+    width: 18em;
+    height: 18em;
+    margin-left: 1em;
+    border: 2px solid darkgray;
+    background-color: gray;
+}
+
+
+
+
+
+
+
