@@ -1,8 +1,58 @@
+/* =========== Works Menu ============= */
+
+.works-menuVAS{
+    float: left;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
+#VAS-vdg{
+    color: #4CB2D4;
+}
+
+#VAS-app{
+    color: #EC4A94;
+}
+
+#VAS-stc{
+    color: #F0A32F;
+}
+
+.VAS-separator{
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    width: 12em;
+    height: 1em;
+    padding: 0.5em 0em 0.5em 0em;
+    text-align: center;
+    margin-top: 1em;
+}
+.VAS-line{
+    height: 0.1em;
+    margin-top: 0.2em;
+}
+
+#VAS-vdg-bg{
+    background-color: #4CB2D4;
+}
+
+#VAS-app-bg{
+    background-color: #EC4A94;
+}
+
+#VAS-stc-bg{
+    background-color: #F0A32F;
+}
+
 /* =========== Works ============= */
 
 .work-title{
     float: left;
-    margin: 0em 0em 0.3em 0em;
+    margin: 1em 0em 0.3em 0em;
     padding: 0em 0em 0em 0em; 
 }
 
@@ -14,7 +64,7 @@
     height: 1.5em;
     float: left;
     text-align: center;
-    margin-top: 0.8em;
+    margin-top: 3.3em;
     margin-left: 0.5em;
 }
 
@@ -69,8 +119,13 @@
     margin-right: 1em;
 }
 
+/* =========== Separators ============= */
 
-
+.separators-works{
+    height: 0.2em;
+    background-color: gainsboro;
+    margin: 2em 0em 0.5em 0em;
+}
 
 
 
