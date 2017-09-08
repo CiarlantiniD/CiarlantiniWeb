@@ -14,11 +14,13 @@
 }
 
 #VAS-app{
-    color: #EC4A94;
+    color: gainsboro; /*#EC4A94*/
+    font-weight: 100;
 }
 
 #VAS-stc{
-    color: #F0A32F;
+    color: gainsboro; /*#F0A32F*/
+    font-weight: 100;
 }
 
 .VAS-separator{
