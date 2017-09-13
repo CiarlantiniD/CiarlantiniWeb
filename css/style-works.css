@@ -124,7 +124,7 @@
 /* =========== Separators ============= */
 
 .separators-works{
-    height: 0.2em;
+    height: 1px;
     background-color: gainsboro;
     margin: 2em 0em 0.5em 0em;
 }
