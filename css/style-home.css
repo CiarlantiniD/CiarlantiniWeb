@@ -1,24 +1,26 @@
 /* =========== Home ============= */
 
-#bannerBoxStart{
-    border-radius: 25px;
-    border: 2px solid darkgray;
-    padding-top: 22em;
-    padding-left: 2em;
-    padding-right: 2em;
-    height: 13em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    margin-top: 2em;
+#banner{
+    border-radius: 20px;
+    margin: 20px 0px 40px 0px;
+    padding: 22em 2em 0em 2em;
+    height: 10em;
     background-color: #C6C6C6;
     color: white;
     text-decoration: none;
 }
 
-#bannerBoxText{
-    font-size: 25px; 
+#banner-title{
+    font-size: 42px; 
     text-shadow: 2px 2px 2px #000000;
-    line-height: 1.2em
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#banner-text{
+    font-size: 20px; 
+    text-shadow: 2px 2px 2px #000000;
+    line-height: 1.2em;
 }
 
 
