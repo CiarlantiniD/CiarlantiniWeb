@@ -3,7 +3,7 @@
 
 
 body {
-    width: 80em;/* 70em (?*/
+    width: 68em;
     font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
     color: #666;
@@ -91,7 +91,7 @@ a:active {
 
 /* =========== Hearde ============= */
 
-#header-top{
+header{
     margin-top: 1em;
 }
 #header-end{
@@ -110,7 +110,6 @@ a:active {
     margin: 0 auto;
     margin-top:20px;
 }
-
 #menubar ul li {
     display: inline;
     padding-top: 1em;
@@ -121,7 +120,7 @@ a:active {
 }
 #menubar ul li:hover {
     cursor:pointer;
-    text-decoration: underline;
+    color: #DE484A;
 }
 
 /* =========== Footer ============= */
