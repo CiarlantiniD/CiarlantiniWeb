@@ -78,15 +78,14 @@ a:visited {
 }
 
 a:hover {
-    color: #444;
+    color: #DE484A;
     background-color: transparent;
-    text-decoration: underline;
+    cursor:pointer;
 }
 
 a:active {
     color: #444;
     background-color: transparent;
-    text-decoration: underline;
 }
 
 /* =========== Hearde ============= */
@@ -98,6 +97,17 @@ header{
     background-color: darkgray;
     height: 0.3em;
     clear: right;
+}
+
+#title-logo {
+    font-size: 20px;
+    float: left;
+    text-align: left;
+    padding: 3px 0px 0px 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+	color: #444;
+	line-height: 22px;
 }
 
 /* =========== Menu ============= */
@@ -118,10 +128,12 @@ header{
     border-radius:2px;
     font-weight: 600;
 }
+
+/*
 #menubar ul li:hover {
     cursor:pointer;
     color: #DE484A;
-}
+}*/
 
 /* =========== Footer ============= */
 
