@@ -23,41 +23,23 @@
     line-height: 1.2em;
 }
 
-
 /* =========== Info ============= */
 
-#infoBox-Conteiner{
+#perfil-conteiner{
+    margin: 1em 0em 0em 0em;
 }
 
-#infoBox-image{
+#perfil-img{
+    margin: 1.5em 0em 1em 0em;
     float: left;
-    margin-top: 2em;
-    margin-left: 4em;
-    margin-bottom: 2em;
-    height: 20em;
     width: 20em;
-    
 }
 
-#infoBox-text{
-    float: left;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    height: 16em;
-    width: 50em;
-    padding: 2em 2em 2em 2em;
-    
-}
-
-#infoBox-text-p{
-    font-size: 25px;
+#perfil-text{
+    float: right;
+    margin: 1.5em 0em 1em 0em;
+    padding: 2em 2em 0em 2em;
+    width: 28em;
+    font-size: 24px;
     line-height:normal;
-}
-
-/* =========== Separator ============= */
-
-#separator-home{
-    height: 1px;
-    background-color: gainsboro;
-    margin: 3em 0em 0em 0em;
 }
