@@ -170,6 +170,30 @@ header{
     padding: 1em 1em 1em 1em;
 }
 
+.textBlock{
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    padding: 1.5em 0em 1.5em 0em;
+}
+
+/* ========== Sites =============*/
+
+
+
+.linksbox{
+    border-radius: 20px;
+    border: 2px solid;
+    width: 8em;
+    height: 2em;
+    float: left;
+    font-size: 32px;
+    text-align: center;
+    line-height: 0;
+    margin: 0em 0em 2em 0em;
+    padding: 2em 0em 0em 0em;
+}
+
 
 /* =========== Footer ============= */
 
