@@ -31,3 +31,13 @@
     margin: 0em 1em 0.5em 0em;
 }
 
+.tagNew{
+    border-radius: 5px;
+    border: 1px solid red;
+    color: red;
+    font-size: 18px;
+    margin: -2em 0em 0.5em 0em;
+    width: 70px;
+    height: 28px;
+    text-align: center;
+}
