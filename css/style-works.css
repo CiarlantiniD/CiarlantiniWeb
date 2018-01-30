@@ -1,6 +1,5 @@
 /* ====== Bannner ====== */
 
-
 #banner{
     border-radius: 20px;
     margin: 20px 0px 30px 0px;
@@ -9,10 +8,8 @@
     background-color: #C6C6C6;
     color: white;
     text-decoration: none;
+    background-size: 100% 100%;
 }
-
-
-
 
 .screenShots{
     float: left;
@@ -33,119 +30,4 @@
     padding: 0.4em 0em 0em 0em;
     margin: 0em 1em 0.5em 0em;
 }
-
-
-
-
-/* =========== Works Menu ============= */
-
-.works-menuVAS{
-    float: left;
-    text-align: center;
-    font-size: 2.5em;
-    font-weight: 500;
-    text-decoration: underline;
-    margin-right: 0.5em;
-    margin-bottom: 0.5em;
-}
-#VAS-vdg{
-    color: #4CB2D4;
-}
-
-#VAS-app{
-    color: gainsboro; /*#EC4A94*/
-    font-weight: 100;
-}
-
-#VAS-stc{
-    color: gainsboro; /*#F0A32F*/
-    font-weight: 100;
-}
-
-.VAS-separator{
-    border-radius: 10px;
-    font-size: 30px;
-    color: white;
-    width: 12em;
-    height: 1em;
-    padding: 0.5em 0em 0.5em 0em;
-    text-align: center;
-    margin-top: 1em;
-}
-.VAS-line{
-    height: 0.1em;
-    margin-top: 0.2em;
-}
-
-#VAS-vdg-bg{
-    background-color: #4CB2D4;
-}
-
-#VAS-app-bg{
-    background-color: #EC4A94;
-}
-
-#VAS-stc-bg{
-    background-color: #F0A32F;
-}
-
-/* =========== Works ============= */
-
-.work-title{
-    float: left;
-    margin: 1em 0em 0.3em 0em;
-    padding: 0em 0em 0em 0em; 
-}
-
-.tag-newElement{
-    border-radius: 5px;
-    border: 1px solid red;
-    color: red;
-    width: 4em;
-    height: 1.5em;
-    float: left;
-    text-align: center;
-    margin-top: 3.3em;
-    margin-left: 0.5em;
-}
-
-.works-flap{
-    margin: 0em 0.5em 0em 0.5em;
-}
-
-.works-img{
-    width: 0 auto;
-    height: 25em;
-    border-radius: 25px;
-    background-color: #C6C6C6;
-    border: 2px solid darkgray;
-    margin: -1em 0em 1em 0em;
-}
-
-.works-textDescription{
-    font-size: 25px;
-    font-weight: 200;
-	line-height: 1.5em;
-    padding: 0em 0.5em 0em 0.5em;
-}
-
-.works-H4config{
-    margin-top: -0.8em;
-}
-
-
-
-
-
-
-
-/* =========== Separators ============= */
-
-.separators-works{
-    height: 1px;
-    background-color: gainsboro;
-    margin: 2em 0em 0.5em 0em;
-}
-
-
 
