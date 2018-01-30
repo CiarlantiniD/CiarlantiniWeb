@@ -148,7 +148,7 @@ header{
      margin-bottom: 20px;
      color: white;
      float: left;
-     text-shadow: 0px 0px 5px #000000;
+     /*text-shadow: 0px 0px 3px grey;*/
      background-size: 100% 100%;
  }
 
