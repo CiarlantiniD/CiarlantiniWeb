@@ -11,9 +11,7 @@ body {
 	font-size: 16px;
     line-height: 1.6em;
     margin: 0 auto;
-    /*padding: 0;*/
-    padding-left: 2em;
-    padding-right: 2em;
+    padding: 0em 2em 0em 2em;
 }
 
 html {
@@ -39,8 +37,15 @@ h3 {
 	font-size: 32px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-	/*color: #444;*/
 }
+h6 {
+	font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+	color: #444;
+}
+
+/* rev*/
 h4 {
 	font-size: 25px;
     font-family: 'Lato', sans-serif;
@@ -53,15 +58,8 @@ h5 {
     font-family: 'Lato', sans-serif;
     font-weight: 100;
 	color: #444;
-	line-height: 1.1em;
 }
-h6 {
-	font-size: 15px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
-	color: #444;
-	/*line-height: 1.1em;*/
-}
+
 
 /* =========== Links ============= */
 
@@ -208,13 +206,3 @@ header{
     margin-top: -2em;
     float: right;
 }
-
-
-
-
-
-
-
-
-
-

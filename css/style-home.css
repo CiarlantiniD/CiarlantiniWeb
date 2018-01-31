@@ -31,16 +31,16 @@
 }
 
 #perfil-img{
-    margin: 1.5em 0em 1em 0em;
+    margin: 2em 0em 1em 1em;
     float: left;
-    width: 20em;
+    width: 16em;
 }
 
 #perfil-text{
     float: right;
-    margin: 1.5em 0em 1em 0em;
-    padding: 2em 2em 0em 2em;
-    width: 28em;
+    margin: 2em 0em 1em 0em;
+    padding: 1.5em 1em 0em 1em;
+    width: 32em;
     font-size: 24px;
     line-height:normal;
 }
