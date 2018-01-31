@@ -26,21 +26,21 @@
 
 /* =========== Info ============= */
 
-#perfil-conteiner{
-    margin: 1em 0em 0em 0em;
-}
-
 #perfil-img{
-    margin: 2em 0em 1em 1em;
     float: left;
+    margin: 1.5em 0em 2em 0em;
+    padding: 0em 0em 0em 0em;
     width: 16em;
+    height: 16em;
+    background-size: 100% 100%;
 }
 
 #perfil-text{
     float: right;
-    margin: 2em 0em 1em 0em;
-    padding: 1.5em 1em 0em 1em;
+    margin: 1.5em 0em 0em 0em;
+    padding: 1.5em 0em 0em 0em;
     width: 32em;
+
     font-size: 24px;
     line-height:normal;
 }
