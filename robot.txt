@@ -5,3 +5,4 @@ Disallow: /font-awesome
 Disallow: /icon
 Disallow: /stats
 Disallow: /img
+Disallow: /develop
