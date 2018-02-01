@@ -24,7 +24,7 @@ html {
 h1 {
 	font-size: 40px;
     font-family: 'Lato', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     color: #444;
     line-height: 0;
 }
@@ -38,28 +38,25 @@ h3 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
+h4 {
+	font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+	color: #444;
+}
+h5 {
+	font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+	color: #444;
+}
+
 h6 {
 	font-size: 15px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 	color: #444;
 }
-
-/* rev*/
-h4 {
-	font-size: 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
-	color: #444;
-}
-h5 {
-	font-size: 24px;
-    margin: 0 0 40px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
-	color: #444;
-}
-
 
 /* =========== Links ============= */
 
@@ -148,7 +145,6 @@ header{
      margin-bottom: 20px;
      color: white;
      float: left;
-     /*text-shadow: 0px 0px 3px grey;*/
      background-size: 100% 100%;
  }
 
