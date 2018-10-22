@@ -18,6 +18,7 @@
 
 /* =========== Typo ============= */
 
+
 /*h1 {
 	font-size: 40px;
     font-family: 'Lato', sans-serif;
@@ -110,8 +111,8 @@ header{
 /* ========= Separator ========= */
 
 .separator{
-    background-color: darkgray;
-    height: 0.1em;
+    background-color: rgb(206, 204, 204);
+    height: 1px;
     clear: right;
     width: 100%
 }
@@ -137,9 +138,9 @@ header{
 
  .slider{
      border-radius: 18px;
-     margin-top: 10px;
+     margin: 10px 0 15px 0;
      height: 400px;
-     padding: 12em 1em 0em 1em;
+     padding: 15em 1em 0em 1em;
      color: white;
      /*background-size: 100% 100%;*/
      background-color: #a9a9a9;
@@ -245,21 +246,28 @@ header{
 
 /* =========== Info ============= */
 
-#perfil-img{
-    float: left;
-    margin: 1.5em 0em 2em 1em;
-    padding: 0em 0em 0em 0em;
-    width: 16em;
-    height: 16em;
-    background-size: 100% 100%;
+.perfil{
+    margin: 15px 0 15px 0;
 }
 
-#perfil-text{
+.perfil-img{
+    margin: auto;
+    padding: 0;
+    width: 15em;
+    height: 15em;
+    background-size: 100% 100%;
+    background-image: url(img/perfil/perfil-home.png)
+}
+
+.perfil-text{
+    font-size: 24px;
+    vertical-align: middle;
+    padding: 5% 0;
     /*float: right;
-    margin: 1.5em 0em 0em 0em;
+    
     padding: 1.5em 0em 0em 0em;
     width: 32em;
 
-    font-size: 24px;
+    
     line-height:normal;*/
 }
