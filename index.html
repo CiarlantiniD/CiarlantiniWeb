@@ -4,15 +4,18 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="author" content="Dario Ciarlantini">
     <meta name="description" content="Portfolio de Dario Ciarlantini. Aprendiz de desarrollador y amante del diseño.">
-    <meta property="og:image" content="img/icons/open_graph_logo.png">
-    <meta property="og:description" content="Portfolio de Dario Ciarlantini. Aprendiz de desarrollador y amante del diseño.">
-    <meta property="og:title" content="Dario Ciarlantini">
     <meta name="keywords" content="Videogame, Software, Design, Video, App, Scripting, Developer">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
     <link rel="shortcut icon" type="image/png" href="img/icons/favicon.png"/>
     <link rel="apple-touch-icon" href="img/icons/favicon.png">
-    <title>Darío Ciarlantini // Inicio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="path/bootstrap/css/bootstrap.min.css">
+
+    <title>Darío Ciarlantini // Inicio</title>
+    <meta property="og:title" content="Dario Ciarlantini">
+    <meta property="og:image" content="img/icons/open_graph_logo.png">
+    <meta property="og:description" content="Portfolio de Dario Ciarlantini. Aprendiz de desarrollador y amante del diseño.">
+    
     <link rel="stylesheet" type="text/css" href="css/style-home.css">
     
 <script>
@@ -28,7 +31,7 @@
 </head>
 
 <body>
-    <header>
+    <!--<header>
         <img src="img/icons/logo.svg" width="50px" height="50px" style="float: left">
         <div id="title-logo">Ciarlantini<br>Darío</div>
         <div id="menu">
@@ -42,55 +45,94 @@
             </div>
         </div>
         <div class="separator"></div>
-    </header>
+    </header>-->
     
-    <section>
-        <a href="works/lunarLander.html">
+    <section class="container">
+        <!--<a href="works/lunarLander.html">
         <div id="banner" style="background-image: url(img/lunarlander/ll-banner.png)">
             <div id="banner-title">Lunar Lander</div>
-            <p id="banner-text">Usa tus habilidades para aterrizas en la superficie de la Luna. Tienes que ser cuidadoso. Solo un descenso despacio y en la posición correcta te permitirá ganar este clásico de Atari.</p>
-        </div></a>
+            <p id="banner-text">Usa tus habilidades para aterrizas en la superficie de la Luna. Tienes que ser cuidadoso. 
+                Solo un descenso despacio y en la posición correcta te permitirá ganar este clásico de Atari.</p>
+        </div></a>-->
+        
+        <!--<div class="sub-separator"></div>-->
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <a href="works/lunarLander.html">
+                            <div id="banner">
+                                <div id="banner-title">Lunar Lander</div>
+                                    Usa tus habilidades para aterrizas en la superficie de la Luna. Tienes que ser cuidadoso. 
+                                        Solo un descenso despacio y en la posición correcta te permitirá ganar este clásico de Atari.
+                            </div>
+                        </a>
+                    </div>
+                </div>
 
-        <h1>Relevantes</h1>
-        <div class="sub-separator"></div>
-        <div class="slider-contener">
-
-                <a href="works/jsGenerala.html">
-                    <div class="slider" style="background-image: url(img/jsGenerala/slice.png)">
-                        <div class="tagNew" style="display: block">Nuevo</div>
-                        <div class="slider-title">Generala JS</div>
-                        <p>Generala desarrollada en Javascript que funciona con solo un botón de manera casi automatica.</p>
+            <h1>Relevantes</h1>
+            <div class="row">
+                
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <a href="works/jsGenerala.html">
+                        <div class="slider">
+                                <div class="tagNew" style="display: block">Nuevo</div>
+                                <div class="slider-title">Generala JS</div>
+                                Generala desarrollada en Javascript que funciona con solo un botón de manera casi automatica.
+                        </div>
+                </a>
+                </div>
+                
+                
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <a href="works/juggerHound.html">
+                        <div class="slider">
+                            <div class="slider-title">JuggerHound</div>
+                            Adaptación de Megaman. El jugador tiene que desplazarse por el escenario disparando a los enemigos. 
+                            Al final del nivel hay que enfrentarse al jefe final para conseguir la victoria.
+                        </div>
+                    </a>
+              </div>
+            
+            
+              <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <a href="works/apolo.html">
+                    <div class="slider">
+                            <div class="slider-title">APOLO</div>
+                            El jugador toma el papel de un tripulante de la nave Apolo que se esta dirigiendo hacia la Luna. 
+                            El objetivo es llegar a salvo al destino.
                     </div>
                 </a>
+              </div>
+            
+            </div>
 
-            <a href="works/juggerHound.html">
-                <div class="slider" style="margin: 0em 1em 0em 1em;background-image: url(img/jh/jh-slice.png)">
-                    <div class="slider-title">JuggerHound</div>
-                    <p>Adaptación de Megaman. El jugador tiene que desplazarse por el escenario disparando a los enemigos. Al final del nivel hay que enfrentarse al jefe final para conseguir la victoria.</p>
-                </div>
-            </a>
-            <a href="works/apolo.html">
-                <div class="slider" style=" background-image: url(img/apolo/apolo-slice.png)">
-                    <div class="slider-title">APOLO</div>
-                    <p>El jugador toma el papel de un tripulante de la nave Apolo que se esta dirigiendo hacia la Luna. El objetivo es llegar a salvo al destino.</p>
-                </div>
-            </a>
+            <h1><a href="about.html">Darío Ciarlantini</a> | Joven y Entusiasta</h1>
+            <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                            <div id="perfil-img" style="background-image: url(img/perfil/perfil-home.png);"></div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                            <div id="perfil-text">Joven entusiasta. Amante del software y el diseño. Busco entrar en el apasionante mundo de los videojuegos. 
+                                    Conocer su industria y ayudar a crear obras que trasmitan nuevas ideas a sus jugadores y los haga reflexionar, sin dejar de lado la diversión.</div>
+                    </div>
+            </div>
 
-        </div>
-        <div style="clear: left"></div>
-
-        <h1><a href="about.html">Darío Ciarlantini</a> | Joven y Entusiasta</h1>
-        <div class="sub-separator"></div>
-        <div id="perfil-img" style="background-image: url(img/perfil/perfil-home.png);"></div>
-        <div id="perfil-text">Joven entusiasta. Amante del software y el diseño. Busco entrar en el apasionante mundo de los videojuegos. Conocer su industria y ayudar a crear obras que trasmitan nuevas ideas a sus jugadores y los haga reflexionar, sin dejar de lado la diversión.</div>
-        <div style="clear: left"></div>
     </section>
     
     
-    <footer>
-        <div class="separator"></div>
-        <div id="footertext">© 2018 | Creado por Darío Ciarlantini  | Portfolio</div>
+    <footer class="container">
+            <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="separator"></div>
+                            <div id="footertext">© 2018 | Creado por Darío Ciarlantini  | Portfolio</div>
+                    </div>
+            </div>
     </footer>
+
+    <script src="path/jquery-3.3.1.js"></script>
+    <script src="path/jquery-ui/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="path/jquery-ui/jquery-ui.min.css">
+    <script src="path/popper.js"></script>
+    <script src="path/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 </html>

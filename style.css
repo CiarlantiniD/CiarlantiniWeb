@@ -2,7 +2,7 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700,800|Lato:100,400,300,700');
 
 
-body {
+/*body {
     width: 68em;
     font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -12,16 +12,13 @@ body {
     line-height: 1.6em;
     margin: 0 auto;
     padding: 0em 2em 0em 2em;
-}
+}*/
 
-html {
-    width: 100%;
-    height: 100%;
-}
+
 
 /* =========== Typo ============= */
 
-h1 {
+/*h1 {
 	font-size: 40px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -56,7 +53,7 @@ h6 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: #444;
-}
+}*/
 
 /* =========== Links ============= */
 
@@ -116,6 +113,7 @@ header{
     background-color: darkgray;
     height: 0.1em;
     clear: right;
+    width: 100%
 }
 
 .sub-separator{
@@ -138,14 +136,13 @@ header{
  }
 
  .slider{
-     border-radius: 20px;
-     width: 20em;
-     height: 14em;
+     border-radius: 18px;
+     margin-top: 10px;
+     height: 400px;
      padding: 12em 1em 0em 1em;
-     margin-bottom: 20px;
      color: white;
-     float: left;
-     background-size: 100% 100%;
+     /*background-size: 100% 100%;*/
+     background-color: #a9a9a9;
  }
 
  .sliderText{
@@ -211,3 +208,58 @@ header{
     text-align: right;
 }
 
+
+
+
+
+
+/* =========== Home ============= */
+
+#banner{
+    padding: 20em 2em 0em 2em;
+    background-color: #555555;
+    border-radius: 18px;
+    color: aliceblue;
+    /*border-radius: 20px;
+    margin: 20px 0px 50px 0px;
+    
+    height: 10em;
+    background-color: #C6C6C6;
+    color: white;
+    text-decoration: none;
+    background-size: 100% 100%;*/
+}
+
+#banner-title{
+    font-size: 42px; 
+    text-shadow: 2px 2px 2px #000000;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#banner-text{
+    font-size: 20px; 
+    text-shadow: 2px 2px 2px #000000;
+    line-height: 1.2em;
+}
+
+/* =========== Info ============= */
+
+#perfil-img{
+    float: left;
+    margin: 1.5em 0em 2em 1em;
+    padding: 0em 0em 0em 0em;
+    width: 16em;
+    height: 16em;
+    background-size: 100% 100%;
+}
+
+#perfil-text{
+    /*float: right;
+    margin: 1.5em 0em 0em 0em;
+    padding: 1.5em 0em 0em 0em;
+    width: 32em;
+
+    font-size: 24px;
+    line-height:normal;*/
+}
