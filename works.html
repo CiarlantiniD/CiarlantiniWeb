@@ -2,155 +2,238 @@
 <html lang="es">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Dario Ciarlantini">
-    <meta name="description" content="Portfolio de Dario Ciarlantini. Aprendiz de desarrollador y amante del diseño.">
-    <meta property="og:image" content="img/icons/open_graph_logo.png">
-    <meta property="og:description" content="Portfolio de Dario Ciarlantini. Aprendiz de desarrollador y amante del diseño.">
-    <meta property="og:title" content="Dario Ciarlantini | Trabajos">
+    <meta name="description" content="Portfolio de Dario Ciarlantini. Aspirante a desarrollador y amante del diseño.">
     <meta name="keywords" content="Videogame, Software, Design, Video, App, Scripting, Developer">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
     <link rel="shortcut icon" type="image/png" href="img/icons/favicon.png"/>
     <link rel="apple-touch-icon" href="img/icons/favicon.png">
-    <title>Darío Ciarlantini // Trabajos</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="css/style-works.css">
+    <link rel="stylesheet" href="path/bootstrap/css/bootstrap.min.css">
+
+    <title>Darío Ciarlantini // Trabajos</title>
+    <meta property="og:title" content="Dario Ciarlantini | Trabajos">
+    <meta property="og:image" content="img/icons/open_graph_logo.png">
+    <meta property="og:description" content="Portfolio de Dario Ciarlantini. Aspirante a desarrollador y amante del diseño.">
 </head>
 
 <body>
-        <header>
-                <img src="img/icons/logo.svg" width="50px" height="50px" style="float: left">
-                <div id="title-logo">Ciarlantini<br>Darío</div>
-                <div id="menu">
-                   <div id="menu-items">
-                       <ul>
-                           <li><a href="index.html">INICIO</a></li>
-                           <li><a href="works.html">TRABAJOS</a></li>
-                           <li><a href="about.html">SOBRE MÍ</a></li>
-                           <li><a href="contact.html">CONTACTO</a></li>
-                       </ul>
+        <header class="container">
+                <nav class="navbar navbar-expand-md navbar-light bg-light">
+                    <div class="isologo">
+                            <div class="logo-img"><img src="img/icons/logo.svg"></div>
+                            <div class="logo-title">Ciarlantini<br>Darío</div>
                     </div>
-                </div>
+                        
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" 
+                        aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <div class="collapse navbar-collapse" id="navbarsExample03">
+                        <div class="d-block d-sm-block d-md-none separator" style="margin: 0.5em 0 0.5em 0"></div>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="works.html">TRABAJOS</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="about.html">SOBRE MÍ</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="contact.html">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
                 <div class="separator"></div>
-            </header>
-    
-    <section>
-        <h1>Videojuegos</h1>
-        <div class="separator"></div>
-        <div class="slider-contener">
-                <a href="works/ilovemydinosaur.html">
-                    <div class="slider" style="background-image: url(img/ilovemydinosaur/slice.png)">
-                        <div class="tagNew" style="display: none">Nuevo</div>
-                        <div class="slider-title">I Love My Dinosaur!</div>
-                        <p>¡Cuida a tu dinosaurio de las distintas entidades del gobierno que quiere quitartelo! Juega mini juegos para mantenerlo con vida y hacerlo feliz.</p>
-                    </div>
-                </a>
-                <a href="works/lunarLander.html">
-                        <div class="slider" style="margin: 0em 1em 0em 1em;background-image: url(img/lunarlander/ll-slice.png)">
-                            <div class="slider-title">LunarLander</div>
-                            <p>Usa tus habilidades para aterrizas en la superficie de la Luna. Tienes que ser cuidadoso. Solo un descenso despacio y en la posición correcta te permitirá ganar este clásico de Atari.</p>
+                </header>
+
+
+
+    <section class="container">
+
+            <h1>Videojuegos</h1>
+            <div class="separator"></div>
+            <div class="row">
+                
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <a href="works/ilovemydinosaur.html">
+                        <div class="slider">
+                                <div class="tag tagNew" style="display: none">Nuevo</div>
+                                <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
+                                <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
+                                <div class="slider-title">I Love My Dinosaur!</div>
+                                ¡Cuida a tu dinosaurio de las distintas entidades del gobierno que quiere quitartelo! Juega mini juegos para mantenerlo con vida y hacerlo feliz.
                         </div>
                     </a>
-                <a href="works/juggerHound.html">
-                    <div class="slider" style="background-image: url(img/jh/jh-slice.png)">
-                        <div class="slider-title">JuggerHound</div>
-                        <p>Adaptación de Megaman. El jugador tiene que desplazarse por el escenario disparando a los enemigos. Al final del nivel hay que enfrentarse al jefe final para conseguir la victoria.</p>
-                    </div>
-                </a>
-                
-        
-        </div>
-
-        <div class="slider-contener">
-            <a href="works/apolo.html">
-                    <div class="slider" style="background-image: url(img/apolo/apolo-slice.png)">
-                        <div class="slider-title">APOLO</div>
-                        <p>El jugador toma el papel de un tripulante de la nave Apolo que se esta dirigiendo hacia la Luna. El objetivo es llegar a salvo al destino.</p>
-                    </div>
-            </a>
-            <a href="works/breakboot.html">
-                <div class="slider" style="margin: 0em 1em 0em 1em;background-image: url(img/breakboot/bb-slice.png)">
-                    <div class="slider-title">BreakBoot</div>
-                    <p>El objetivo es descifrar la contraseña del sistema. Para eso, es necesario leer la información guardada en la memoria. La herramienta de Hacking ayuda al jugador con pistas.</p>
                 </div>
-            </a>
-        </div>
-        <div style="clear: left"></div>
 
-
-
-        <h1>Javascript</h1>
-        <div class="separator"></div>
-        <div class="slider-contener">
-
-                <a href="works/jsGenerala.html">
-                    <div class="slider" style="background-image: url(img/jsGenerala/slice.png)">
-                        <div class="tagNew" style="display: block">Nuevo</div>
-                        <div class="slider-title">Generala JS</div>
-                        <p>Generala desarrollada en Javascript que funciona con solo un botón de manera casi automatica.</p>
-                    </div>
-                </a>
-
-            <a href="works/jsCal.html">
-                <div class="slider" style="margin: 0em 1em 0em 1em;background-image: url(img/jsCal/slice.png)">
-                    <div class="tagNew" style="display: block">Nuevo</div>
-                    <div class="slider-title">Calculadora JS</div>
-                    <p>Calculadora desarrollada en Javascript como práctica del lenguaje.</p>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <a href="works/lunarLander.html">
+                            <div class="slider">
+                                    <div class="tag tagNew" style="display: none">Nuevo</div>
+                                    <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
+                                    <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
+                                    <div class="slider-title">LunarLander</div>
+                                    Usa tus habilidades para aterrizas en la superficie de la Luna. Tienes que ser cuidadoso. 
+                                Solo un descenso despacio y en la posición correcta te permitirá ganar este clásico de Atari.
+                            </div>
+                        </a>
                 </div>
-            </a>
 
-            <a href="works/jsForm.html">
-                <div class="slider" style="background-image: url(img/jsForm/slice.png)">
-                    <div class="tagNew" style="display: none">Nuevo</div>
-                    <div class="slider-title">Bootstrap Form</div>
-                    <p>Formulario simple con las opciones que provee bootstrap.</p>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <a href="works/juggerHound.html">
+                            <div class="slider">
+                                    <div class="tag tagNew" style="display: none">Nuevo</div>
+                                    <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
+                                    <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
+                                    <div class="slider-title">JuggerHound</div>
+                                    Adaptación de Megaman. El jugador tiene que desplazarse por el escenario disparando a los enemigos. 
+                            Al final del nivel hay que enfrentarse al jefe final para conseguir la victoria.
+                            </div>
+                        </a>
                 </div>
-            </a>
 
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <a href="works/apolo.html">
+                            <div class="slider">
+                                    <div class="tag tagNew" style="display: none">Nuevo</div>
+                                    <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
+                                    <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
+                                    <div class="slider-title">APOLO</div>
+                                    El jugador toma el papel de un tripulante de la nave Apolo que se esta dirigiendo hacia la Luna. 
+                                    El objetivo es llegar a salvo al destino.
+                            </div>
+                        </a>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <a href="works/breakboot.html">
+                            <div class="slider">
+                                    <div class="tag tagNew" style="display: none">Nuevo</div>
+                                    <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
+                                    <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
+                                    <div class="slider-title">BreakBoot</div>
+                                    El objetivo es descifrar la contraseña del sistema. Para eso, es necesario leer la información guardada en la memoria. 
+                        La herramienta de Hacking ayuda al jugador con pistas.
+                            </div>
+                        </a>
+                </div>
+            </div>
+
+            <h1>Javascript</h1>
+            <div class="separator"></div>
+            <div class="row">
             
-        </div>
-        <div style="clear: left"></div>
-        
-
-        <h1>Game Design</h1>
-        <div class="separator"></div>
-        <div class="slider-contener">
-            <a href="works/counterstrikemap.html">
-                <div class="slider" style="background-image: url(img/csm/csm-slice.png)">
-                    <div class="tagNew" style="display: none">Nuevo</div>
-                    <div class="slider-title">Counter Strike Map</div>
-                    <p>Concepto de mapa para Counter Strike realizado en Unity.</p>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <a href="works/jsGenerala.html">
+                            <div class="slider">
+                                    <div class="tag tagNew" style="display: none">Nuevo</div>
+                                    <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
+                                    <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
+                                    <div class="slider-title">Generala JS</div>
+                                    Generala desarrollada en Javascript que funciona con solo un botón de manera casi automatica.
+                            </div>
+                        </a>
                 </div>
-            </a>
-        </div>
-        <div style="clear: left"></div>
 
-
-        <h1>Scripting</h1>
-        <div class="separator"></div>
-        <div class="slider-contener">
-            <a href="works/scriptFFmpeg.html">
-                <div class="slider" style="background-image: url(img/general/script-slice.png)">
-                    <div class="tagNew" style="display: none">Nuevo</div>
-                    <div class="slider-title">FFmpeg Scripting</div>
-                    <p>Script basado en Bash para realizar transcodificaciones de diferentes tipos de archivos con FFmpeg en terminal de Linux.</p>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <a href="works/jsCal.html">
+                            <div class="slider">
+                                    <div class="tag tagNew" style="display: none">Nuevo</div>
+                                    <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
+                                    <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
+                                    <div class="slider-title">Calculadora JS</div>
+                                    Calculadora desarrollada en Javascript como práctica del lenguaje.
+                            </div>
+                        </a>
                 </div>
-            </a>
-            <a href="works/scriptPresentes.html">
-                <div class="slider" style="margin: 0em 1em 0em 1em; background-image: url(img/general/script-slice.png)">
-                    <div class="tagNew" style="display: none">Nuevo</div>
-                    <div class="slider-title">Script Presentes</div>
-                    <p>Script para enviar un mail atravez de Gmail como una plantilla del estado de presentes.</p>
-                </div>
-            </a>
-        </div>
-        <div style="clear: left"></div>
 
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <a href="works/jsForm.html">
+                            <div class="slider">
+                                    <div class="tag tagNew" style="display: none">Nuevo</div>
+                                    <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
+                                    <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
+                                    <div class="slider-title">Bootstrap Form</div>
+                                    Formulario simple con las opciones que provee bootstrap.
+                            </div>
+                        </a>
+                </div>
+            
+            </div>
+            <h1>Game Design</h1>
+            <div class="separator"></div>
+            <div class="row">
+
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                            <a href="works/counterstrikemap.html">
+                                <div class="slider">
+                                        <div class="tag tagNew" style="display: none">Nuevo</div>
+                                        <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
+                                        <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
+                                        <div class="slider-title">Counter Strike Map</div>
+                                        Concepto de mapa para Counter Strike realizado en Unity.
+                                </div>
+                            </a>
+                    </div>
+
+
+
+
+
+
+            </div>
+            <h1>Scripting</h1>
+            <div class="separator"></div>
+            <div class="row">
+
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                            <a href="works/scriptFFmpeg.html">
+                                <div class="slider">
+                                        <div class="tag tagNew" style="display: none">Nuevo</div>
+                                        <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
+                                        <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
+                                        <div class="slider-title">FFmpeg Scripting</div>
+                                        Script basado en Bash para realizar transcodificaciones de diferentes tipos de archivos con FFmpeg en terminal de Linux.
+                                </div>
+                            </a>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                            <a href="works/scriptPresentes.html">
+                                <div class="slider">
+                                        <div class="tag tagNew" style="display: none">Nuevo</div>
+                                        <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
+                                        <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
+                                        <div class="slider-title">Script Presentes</div>
+                                        Script para enviar un mail atravez de Gmail como una plantilla del estado de presentes.
+                                </div>
+                            </a>
+                    </div>
+            </div>
     </section>
     
-    <footer>
-        <div class="separator"></div>
-        <div id="footertext">© 2018 | Creado por Darío Ciarlantini  | Portfolio</div>
+    <footer class="container">
+            <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="separator"></div>
+                            <div id="footertext">© 2018 | Creado por Darío Ciarlantini  | Portfolio</div>
+                    </div>
+            </div>
     </footer>
 
+    <script src="path/jquery-3.3.1.js"></script>
+    <script src="path/jquery-ui/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="path/jquery-ui/jquery-ui.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="path/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

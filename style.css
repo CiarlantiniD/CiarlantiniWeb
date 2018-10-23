@@ -378,16 +378,7 @@ a:hover {
 
 /* ====== Bannner ====== */
 
-#banner{
-    border-radius: 20px;
-    margin: 20px 0px 30px 0px;
-    padding: 22em 2em 0em 2em;
-    height: 10em;
-    background-color: #C6C6C6;
-    color: white;
-    text-decoration: none;
-    background-size: 100% 100%;
-}
+
 
 .screenShots{
     float: left;
