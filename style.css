@@ -226,16 +226,36 @@ a:hover {
     float: left;
 }
 
-.tagNew{
-    border-radius: 5px;
-    border: 1px solid red;
-    color: red;
+.tag{
+    border-radius: 18px;
+    border: 1px solid;
     font-size: 18px;
-    margin: -2em 0em 0.5em 0em;
-    width: 70px;
-    height: 28px;
+    margin: -1.5em 0em 0em 0em;
     text-align: center;
 }
+
+.tagNew{
+    border-color: red;
+    color: red;
+    width: 70px;
+    height: 28px;
+}
+
+
+.tagComingSoon{
+    border-color: orange;
+    color: orange;
+    width: 140px;
+    height: 28px;
+}
+
+.tagWIP{
+    border-color: purple;
+    color: purple;
+    width: 70px;
+    height: 28px;
+}
+
  
 /* ========== Text =============*/
 
