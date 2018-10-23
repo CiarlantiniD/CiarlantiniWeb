@@ -58,6 +58,14 @@ h6 {
 
 /* =========== Links ============= */
 
+
+
+
+
+
+
+/*
+
 a:link {
     color: #444; 
     background-color: transparent; 
@@ -80,16 +88,60 @@ a:active {
     color: #444;
     background-color: transparent;
 }
+*/
+
+
+
+
+
+
+
 
 /* =========== Hearde ============= */
 
-header{
-    margin-top: 1em;
+
+.navbar-nav{
+    font-family: 'Lato', sans-serif;
+    line-height: 22px;
+    font-weight: 600;
 }
 
-#title-logo {
-    font-size: 20px;
+ul.navbar-nav li a:hover, ul.navbar-nav li a:active {
+    color: #DE484A !important;
+}
+
+nav .navbar-nav li a{
+    color: #444 !important;
+}
+
+
+a {
+    color: #444 !important;
+}
+
+a:hover {
+    color: #444 !important;
+    background-color: transparent !important;
+    text-decoration: none !important;
+}
+
+
+.isologo{
+    margin: 0 0 0 -15px;
+    
+}
+
+.logo-img{
     float: left;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.logo-title {
+    font-size: 20px;
+    float: right;
     text-align: left;
     padding: 3px 0px 0px 5px;
     font-family: 'Lato', sans-serif;
@@ -98,11 +150,15 @@ header{
 	line-height: 22px;
 }
 
-#menu {
+
+
+
+
+.menu {
     text-align: center;
     float: right;
 }
-#menu-items ul li {
+.menu-items ul li {
     display: inline;
     padding-left: 0.6em;
     font-weight: 600;
@@ -217,10 +273,11 @@ header{
 /* =========== Home ============= */
 
 #banner{
-    padding: 20em 2em 0em 2em;
+    padding: 20em 2em 2em 2em;
     background-color: #555555;
     border-radius: 18px;
     color: aliceblue;
+    margin: 1em 0;
     /*border-radius: 20px;
     margin: 20px 0px 50px 0px;
     
@@ -233,14 +290,12 @@ header{
 
 #banner-title{
     font-size: 42px; 
-    text-shadow: 2px 2px 2px #000000;
     font-weight: 400;
     margin-bottom: 10px;
 }
 
 #banner-text{
     font-size: 20px; 
-    text-shadow: 2px 2px 2px #000000;
     line-height: 1.2em;
 }
 
@@ -256,7 +311,7 @@ header{
     width: 15em;
     height: 15em;
     background-size: 100% 100%;
-    background-image: url(img/perfil/perfil-home.png)
+    background-image: url(img/perfil/perfil-home.png);
 }
 
 .perfil-text{
@@ -270,4 +325,15 @@ header{
 
     
     line-height:normal;*/
+}
+
+
+
+
+
+
+
+
+.collapse .navbar-collapse{
+    margin: -20px !important;
 }
