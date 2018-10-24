@@ -194,6 +194,18 @@ a:hover {
     margin-bottom: 1em; 
 }
 
+/*.separator{
+    background: #cecccc;
+    background: -moz-linear-gradient(left, #cecccc 0%, #ffffff 80%);
+    background: -webkit-linear-gradient(left, #cecccc 0%,#ffffff 80%);
+    background: linear-gradient(to right, #cecccc 0%,#ffffff 80%);
+    height: 1px;
+    width: 100%
+}*/
+
+
+
+
 
 
 /* =========== Slider ============= */
