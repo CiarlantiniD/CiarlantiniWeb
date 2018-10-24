@@ -210,20 +210,27 @@ a:hover {
      border-radius: 18px;
      margin: 10px 0 15px 0;
      height: 400px;
-     padding: 15em 1em 0em 1em;
-     color: white;
-     /*background-size: 100% 100%;*/
      background-color: #a9a9a9;
  }
 
+ .sliderCover{
+    color: white;
+    padding: 15em 1em 0em 1em;
+     /*background-size: 100% 100%;*/
+
+ }
+
  .sliderText{
-    border-radius: 20px;
+    background-color: white !important;
     border: 2px solid #a9a9a9;
-    width: 20em;
-    height: 24em;
-    padding: 2em 1em 0em 1em;
-    margin-bottom: 3em;
-    float: left;
+    padding: 1em;
+    
+}
+
+.sliderText ul{
+    list-style-type: circle;
+    margin-left: -1em;
+    line-height: 1.5em;
 }
 
 .tag{
@@ -333,7 +340,7 @@ a:hover {
     line-height: 1.2em;
 }
 
-/* =========== Info ============= */
+/* =========== Home - Info ============= */
 
 .perfil{
     margin: 15px 0 15px 0;
@@ -398,4 +405,13 @@ a:hover {
     text-align: center;
     padding: 0.4em 0em 0em 0em;
     margin: 0em 1em 0.5em 0em;
+}
+
+
+
+/* ====== About ====== */
+
+.origin{
+    margin: 1em 0 2em 0;
+    padding: 0 0 0 1em;
 }
