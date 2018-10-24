@@ -284,7 +284,7 @@ a:hover {
 /* ========== LinkBox =============*/
 .linksbox{
     border-radius: 18px;
-    border: 2px solid;
+    border: 3px solid;
     height: 3em;
     width: 100%;
     font-size: 32px;
@@ -296,30 +296,29 @@ a:hover {
     margin: 0.4em 0 0.1em 0;
 }
 
-.linksboxTwitter{
-    color: #2AA3EF;
-}
-.linksboxLinkedIn{
-    color: #1178B3;
-}
-.linksboxSteam{
-    color: #b52ac2;
-}
-.linksboxReedit{
-    color: #FC471E;
-}
-.linksboxItchIo{
-    color: #F75D60;
-}
-.linksboxGoogleDrive{
-    color: #F9BB2D;
-}
-.linksboxGitHub{
-    color: #582E7C;
-}
-.linksboxVimeo{
-    color: #5f93ab;
-}
+.linksboxTwitter{color: #2AA3EF;}
+.linksboxTwitter:hover{color: white; background-color: #2AA3EF;}
+
+.linksboxLinkedIn{color: #1178B3;}
+.linksboxLinkedIn:hover{color: white; background-color: #1178B3;}
+
+.linksboxSteam{color: #b52ac2;}
+.linksboxSteam:hover{color: white; background-color: #b52ac2}
+
+.linksboxReedit{color: #FC471E;}
+.linksboxReedit:hover{color: white; background-color: #FC471E}
+
+.linksboxItchIo{color: #F75D60;}
+.linksboxItchIo:hover{color: white; background-color: #F75D60}
+
+.linksboxGoogleDrive{color: #F9BB2D;}
+.linksboxGoogleDrive:hover{color: white; background-color: #F9BB2D}
+
+.linksboxGitHub{color: #582E7C;}
+.linksboxGitHub:hover{color: white; background-color: #582E7C}
+
+.linksboxVimeo{color: #5f93ab;}
+.linksboxVimeo:hover{color: white; background-color: #5f93ab}
 
 
 /* =========== Footer ========== */
