@@ -4,11 +4,13 @@ date: "", version: "",gender: "",language: "",type: "",os: "",processor: "",memo
 
 var thisWork;
 
-function OnLoad(){
+
+function OnLoadHOME();
+
+function OnLoadTHISWORK(nameWork){
     thisWork = works[0]; // modificar por selector de Nombres por el titulo
 
     LoadWebMeta();
-
     LoadBanner();
     LoadIframe();
     LoadTitle();
@@ -23,12 +25,16 @@ function OnLoad(){
 }
 
 function LoadWebMeta(){
-    // + Cargar titulo de la pagina
-    // + Description
+    
+    var newTitle = "Darío Ciarlantini // Trabajos // " + thisWork.title;
+    var bannerDir = "../img/" +  thisWork.title + "/banner.png";
 
-    // + og:Tittle
-    // + og:Image
-    // + og:Description
+    document.title = newTitle
+    $('meta[name=description]').attr('content', thisWork.shortDescription);
+
+    $("meta[property='og:title']").attr("content", newTitle);
+    $("meta[property='og:image']").attr("content", bannerDir);
+    $("meta[property='og:description']").attr("content", thisWork.shortDescription);
 }
 
 function LoadBanner(){
