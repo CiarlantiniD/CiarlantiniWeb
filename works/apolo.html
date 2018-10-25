@@ -40,112 +40,118 @@
                         <div class="d-block d-sm-block d-md-none separator" style="margin: 0.5em 0 0.5em 0"></div>
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="index.html">INICIO</a>
+                                <a class="nav-link" href="../index.html">INICIO</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="works.html">TRABAJOS</a>
+                                <a class="nav-link" href="../works.html">TRABAJOS</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="about.html">SOBRE MÍ</a>
+                                <a class="nav-link" href="../about.html">SOBRE MÍ</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="contact.html">CONTACTO</a>
+                                <a class="nav-link" href="../contact.html">CONTACTO</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
-                <div class="separator"></div>
+                <div class="separator separatorMarginBottom"></div>
         </header>
     
     <section class="container">
         <h1 id="title"></h1>
-        <div class="sub-separator"></div>
-        <div id="banner" style="background-image: url(../img/apolo/apolo-banner.png)"></div>
+        <div class="separator"></div>
+        <div class="banner"></div>
         
         <h2>Descripción</h2>
         <p class="text" id="description"></p>
         
         <h2>Características</h2>
-        <p class="text">
-            - Mantener la nave estable para llegar al objetivo.
-            - Revisar constantemente los instrumentos de la nave.
-        </p>
+        <p class="text" id="features" style="white-space: pre;"></p>
 
         <h2>Tecnologías</h2>
-        <div class="tagTools">C++</div>
-    
-        <div style="clear: left"></div>
-        <div class="slider-contener">
-                <div class="sliderText">
-                    <div class="slider-title">Ficha Técnica</div>
-                    <p>
-                        <strong>Fecha de Realización </strong>2016<br>
-                        <strong>Plataformas </strong>Windows (Consola)<br>
-                        <strong>Versión </strong>1.0<br>
-                        <br>
-                        <strong>Género </strong>RPG<br>
-                        <strong>Lenguajes </strong>Español<br>
-                        <br> 
-                        <strong>Tipo </strong>Demo<br>
-                        <strong>Lugares de Distribución </strong>Itch.io<br>
-                        <br>
-                        <br>
-                        <br>
-                    </p>
-                </div>
-                <div class="sliderText"  style="margin: 0em 0.5em 0em 0.5em;">
-                        <div class="slider-title">Creditos</div>
-                        <p>
-                            Programación, game design e ilustración por Darío Ciarlantini.<br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                        </p>
-                    </div>
-                    <div class="sliderText">
-                            <div class="slider-title">Requerimientos</div>
-                            <p>
-                                <strong>OS </strong>Windows 7+<br>
-                                <strong>Procesador </strong>2 GHz<br>
-                                <strong>Memoria </strong>2 GB<br>
-                                <strong>Almacenamiento </strong>5 MB<br>
-                                <strong>Red </strong>- <br>
-                                <br>
-                                <strong>Notas adicionales </strong><br>
-                                No tiene<br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                            </p>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="techtags"></div>
+        </div>
+
+
+
+        <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <div class="slider sliderText">
+                                <div class="slider-title">Detalles</div>
+                                <strong>Fecha de Realización</strong><div class="sliderTextSep" id="details-date"></div>
+                                <strong>Versión</strong><div class="sliderTextSep" id="details-version"></div>
+                                <strong>Género</strong><div class="sliderTextSep" id="details-gender"></div>
+                                <strong>Lenguajes</strong><div class="sliderTextSep" id="details-language"></div>
+                                <strong>Tipo </strong><div class="sliderTextSep" id="details-type"></div>
                         </div>
-            </div>
-            
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <div class="slider sliderText">
+                                <div class="slider-title">Creditos</div>
+                                <div id="staff"></div>
+                        </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <div class="slider sliderText">
+                                <div class="slider-title">Requerimientos</div>
+                                <strong>Sistemas Operativos</strong><div class="sliderTextSep" id="requirements-os"></div>
+                                <strong>Procesador / Memoria</strong><div class="sliderTextSep" id="requirements-processorMemory"></div>
+                                <strong>Almacenamiento</strong><div class="sliderTextSep" id="requirements-storage"></div>
+                                <strong>Gráficos</strong><div class="sliderTextSep" id="requirements-graphics"></div>
+                                <strong>Red</strong><div class="sliderTextSep" id="requirements-net"></div>
+                                <strong>Notas adicionales</strong><div class="sliderTextSep" id="requirements-notes"></div>
+                        </div>
+                </div>
+        </div>
+        
             <h1>Screenshots</h1>
-            <div class="sub-separator"></div>
-            <a href="../img/apolo/apolo-img-01.jpg"><img class="screenShots" src="../img/apolo/apolo-01.jpg" alt="Apolo Screenshot"></a>
-            <a href="../img/apolo/apolo-img-02.jpg"><img class="screenShots" src="../img/apolo/apolo-02.jpg" alt="Apolo Screenshot"></a>
-            <a href="../img/apolo/apolo-img-03.jpg"><img class="screenShots" src="../img/apolo/apolo-03.jpg" alt="Apolo Screenshot"></a>
-            <a href="../img/apolo/apolo-img-04.jpg"><img class="screenShots" src="../img/apolo/apolo-04.jpg" alt="Apolo Screenshot"></a>
-            <img class="screenShots">
+            <div class="separator separatorMarginBottom"></div>
+            <div class="row separatorMarginBottom">
+                <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                        <a id="ss1"><img id="ssImg1"></a>
+                </div>
+                <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                        <a id="ss2"><img id="ssImg2"></a>
+                </div>
+                <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                        <a id="ss3"><img id="ssImg3"></a>
+                </div>
+                <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                        <a id="ss4"><img id="ssImg4"></a>
+                </div>
+                <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                        <a id="ss5"><img id="ssImg5"></a>
+                </div>
+                <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                        <a id="ss6"><img id="ssImg6"></a>
+                </div>
+            </div>
+
              
             <h1>Links</h1>
-            <div class="sub-separator" style="margin: 0em 0em 2em 0em;"></div>
-            <a href="https://ciarlantinid.itch.io/apolo"><div class="linksbox" style="color: #F75D60">itch.io</div></a>
-            
-            <div style="clear: left"></div>
+            <div class="separator"></div>       
+            <div class="row">
+                    <!--<div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
+                        <a href=""><div class="linksbox linksboxItchIo">itch.io</div></a>
+                    </div>-->
+                    <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
+                        <a id="link1"><div id="linkbox1" class="linksbox"></div></a>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
+                        <a id="link2"><div id="linkbox2" class="linksbox"></div></a>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
+                        <a id="link3"><div id="linkbox3" class="linksbox"></div></a>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
+                        <a id="link4"><div id="linkbox4" class="linksbox"></div></a>
+                    </div>
+            </div>
     </section>
     
 
-    <footer class="container">
+    <footer class="container separatorMarginTop">
             <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <div class="separator"></div>

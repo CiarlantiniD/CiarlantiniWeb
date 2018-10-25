@@ -19,6 +19,10 @@ body {
     padding: 0em 2em 0em 2em;
 }*/
 
+.elementOff{
+    display: none;
+}
+
 
 
 /* =========== Typo ============= */
@@ -246,6 +250,10 @@ a:hover {
     line-height: 1.5em;
 }
 
+.sliderTextSep{
+    margin: 0 0 4px 8px;
+}
+
 .tag{
     border-radius: 18px;
     border: 1px solid;
@@ -309,28 +317,28 @@ a:hover {
 }
 
 .linksboxTwitter{color: #2AA3EF;}
-.linksboxTwitter:hover{color: white; background-color: #2AA3EF;}
+.linksboxTwitter:hover{color: white; background-color: #2AA3EF; border: 3px solid #2AA3EF;}
 
 .linksboxLinkedIn{color: #1178B3;}
-.linksboxLinkedIn:hover{color: white; background-color: #1178B3;}
+.linksboxLinkedIn:hover{color: white; background-color: #1178B3; border: 3px solid #1178B3;}
 
 .linksboxSteam{color: #b52ac2;}
-.linksboxSteam:hover{color: white; background-color: #b52ac2}
+.linksboxSteam:hover{color: white; background-color: #b52ac2; border: 3px solid #b52ac2;}
 
 .linksboxReedit{color: #FC471E;}
-.linksboxReedit:hover{color: white; background-color: #FC471E}
+.linksboxReedit:hover{color: white; background-color: #FC471E; border: 3px solid #FC471E;}
 
 .linksboxItchIo{color: #F75D60;}
-.linksboxItchIo:hover{color: white; background-color: #F75D60}
+.linksboxItchIo:hover{color: white; background-color: #F75D60; border: 3px solid #F75D60;}
 
 .linksboxGoogleDrive{color: #F9BB2D;}
-.linksboxGoogleDrive:hover{color: white; background-color: #F9BB2D}
+.linksboxGoogleDrive:hover{color: white; background-color: #F9BB2D; border: 3px solid #F9BB2D;}
 
 .linksboxGitHub{color: #582E7C;}
-.linksboxGitHub:hover{color: white; background-color: #582E7C}
+.linksboxGitHub:hover{color: white; background-color: #582E7C; border: 3px solid #582E7C;}
 
 .linksboxVimeo{color: #5f93ab;}
-.linksboxVimeo:hover{color: white; background-color: #5f93ab}
+.linksboxVimeo:hover{color: white; background-color: #5f93ab; border: 3px solid #5f93ab;}
 
 
 /* =========== Footer ========== */
@@ -352,31 +360,28 @@ a:hover {
 
 /* =========== Home ============= */
 
-#banner{
-    padding: 20em 2em 2em 2em;
+.banner{
+    padding: 2em;
     background-color: #555555;
     border-radius: 18px;
     color: aliceblue;
     margin: 1em 0;
+    /*height: 40 rem;*/
+    min-height: 420px;
     /*border-radius: 20px;
     margin: 20px 0px 50px 0px;
     
-    height: 10em;
+    
     background-color: #C6C6C6;
     color: white;
     text-decoration: none;
     background-size: 100% 100%;*/
 }
 
-#banner-title{
+.banner-title{
+    margin-top: 250px;
     font-size: 42px; 
     font-weight: 400;
-    margin-bottom: 10px;
-}
-
-#banner-text{
-    font-size: 20px; 
-    line-height: 1.2em;
 }
 
 /* =========== Home - Info ============= */
@@ -427,24 +432,15 @@ a:hover {
 
 
 .screenShots{
-    float: left;
-    width: 12.5em;
-    height: 12.5em;
-    margin: 1em 0.5em 2.5em 0em;
     border: 2px solid darkgray;
     background-color: whitesmoke;
+    /*width: 100%;*/
+    max-width: 100%;
+    margin: 1em 0 0.5em 0;
 }
 
-.tagTools{
-    border-radius: 5px;
-    border: 2px solid darkgray;
-    width: 6em;
-    height: 2em;
-    float: left;
-    text-align: center;
-    padding: 0.4em 0em 0em 0em;
-    margin: 0em 1em 0.5em 0em;
-}
+
+
 
 
 
@@ -453,4 +449,17 @@ a:hover {
 .origin{
     margin: 1em 0 2em 0;
     padding: 0 0 0 1em;
+}
+
+/* ====== Works ====== */
+
+.TechTag{
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    width: 100px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    padding: 0.4em 0em 0em 0em;
+    margin: 0em 1em 0.5em 0em;
 }
