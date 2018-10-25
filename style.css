@@ -207,6 +207,11 @@ a:hover {
     width: 100%
 }*/
 
+.separatorSub{
+    background-color: rgb(206, 204, 204);
+    height: 1px;
+    width: 100%
+}
 
 
 
@@ -254,6 +259,10 @@ a:hover {
     margin: 0 0 4px 8px;
 }
 
+.sliderTextNote{
+    font-size: 12px;
+}
+
 .tag{
     border-radius: 18px;
     border: 1px solid;
@@ -287,11 +296,26 @@ a:hover {
  
 /* ========== Text =============*/
 
-.text{
+/*.text{
     font-size: 22px;
     font-weight: 100;
 	line-height: 1.5em;
     padding: 0.5em 1em 0.5em 1em;
+}*/
+
+.descriptionText{
+    font-size: 22px;
+    font-weight: 100;
+	line-height: 1.5em;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.featuresText{
+    font-size: 22px;
+    font-weight: 100;
+	line-height: 1.5em;
+    padding: 0.5em 1em 0.5em 1em;
+    white-space: pre;
 }
 
 .textBlock{
@@ -343,19 +367,32 @@ a:hover {
 .linksboxYouTube{color: #FF0001;}
 .linksboxYouTube:hover{color: white; background-color: #FF0001; border: 3px solid #FF0001;}
 
+.linksboxForm{color: #142675;}
+.linksboxForm:hover{color: white; background-color: #142675; border: 3px solid #142675;}
+
 
 /* =========== Footer ========== */
 
-#footertext {
+.footerText {
+    margin: 5px 0;
 	font-size: 15px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: #555555;
-    padding: 0em 0em 1em 0em;
     float: right;
     text-align: right;
 }
 
+.footerNote{
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    color: #999999;
+    clear: right;
+    text-align: center;
+    margin: 0 0 15px 0;
+    line-height: 0;
+}
 
 
 

@@ -11,7 +11,7 @@ function OnLoadTHISWORK(nameWork){
 
     works.forEach(element => {
         
-        if (element.title == nameWork){
+        if (element.folderName == nameWork){
             thisWork = element;
         }
     });
@@ -45,8 +45,9 @@ function LoadWebMeta(){
 }
 
 function LoadBanner(){
+
     if (thisWork.banner){
-        var bannerDir = 'url("../img/' +  thisWork.title + '/banner.png")';
+        var bannerDir = 'url("../img/' +  thisWork.folderName + '/banner.png")';
         document.getElementById("wBanner").style.backgroundImage = bannerDir;
     }
     else {
@@ -57,7 +58,7 @@ function LoadBanner(){
 function LoadIframe(){
 
     if (thisWork.iframe){
-        var iframeDir = "../support/" + thisWork.iframe;
+        var iframeDir = "../support/" + thisWork.folderName + "/index.html";
         document.getElementById("wIframe").src = iframeDir;
     }
     else {
@@ -122,6 +123,11 @@ function LoadRequeriments(){
 
 function LoadScreenShots(){
 
+    if(thisWork.ssNumber == 0){
+        document.getElementById("headerScreenshots").classList.add("elementOff");
+        document.getElementById("separatorScreenshots").classList.add("elementOff");
+    }
+
     for(i = 1; i <= 6 ; i++){
 
         var a = document.getElementById("ss"+ i);
@@ -185,6 +191,11 @@ function LoadShereLinks(){
             link.href = element;
             div.textContent = "Video";
             div.classList.add("linksboxVimeo");
+        }
+        else if(0 <= element.search("form")){
+            link.href = element;
+            div.textContent = "Formulario";
+            div.classList.add("linksboxForm");
         }
         else{
             div.classList.add("elementOff");

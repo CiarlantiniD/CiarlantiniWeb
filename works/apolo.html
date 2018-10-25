@@ -1,173 +1,171 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Dario Ciarlantini">
-    <meta name="keywords" content="Videogame, Software, Design, Video, App, Scripting, Developer">
-    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico"/>
-    <link rel="shortcut icon" type="image/png" href="../img/icons/favicon.png"/>
-    <link rel="apple-touch-icon" href="../img/icons/favicon.png">
-    <link rel="stylesheet" type="text/css" href="../style.css">
-    <link rel="stylesheet" href="../path/bootstrap/css/bootstrap.min.css">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Dario Ciarlantini">
+        <meta name="keywords" content="Videogame, Software, Design, Video, App, Scripting, Developer">
+        <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico"/>
+        <link rel="shortcut icon" type="image/png" href="../img/icons/favicon.png"/>
+        <link rel="apple-touch-icon" href="../img/icons/favicon.png">
+        <link rel="stylesheet" type="text/css" href="../style.css">
+        <link rel="stylesheet" href="../path/bootstrap/css/bootstrap.min.css">
 
-    <title>Darío Ciarlantini // Trabajos</title>
-    <meta name="description" content="">
-    <meta property="og:title" content="Dario Ciarlantini | Trabajos">
-    <meta property="og:image" content="">
-    <meta property="og:description" content="">
+        <title>Darío Ciarlantini // Trabajos</title>
+        <meta name="description" content="">
+        <meta property="og:title" content="Dario Ciarlantini | Trabajos">
+        <meta property="og:image" content="">
+        <meta property="og:description" content="">
 
-    <script src="../path/autoInfo.js"></script>
-    <script src="../info/worksInfo.js"></script>
-</head>
-
-<body onload="OnLoadTHISWORK('APOLO')">
-        <header class="container">
-                <nav class="navbar navbar-expand-md navbar-light bg-light">
-                    <div class="isologo">
-                            <div class="logo-img"><img src="../img/icons/logo.svg"></div>
-                            <div class="logo-title">Ciarlantini<br>Darío</div>
-                    </div>
-                        
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" 
-                        aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-            
-                    <div class="collapse navbar-collapse" id="navbarsExample03">
-                        <div class="d-block d-sm-block d-md-none separator" style="margin: 0.5em 0 0.5em 0"></div>
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="../index.html">INICIO</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="../works.html">TRABAJOS</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="../about.html">SOBRE MÍ</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="../contact.html">CONTACTO</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                <div class="separator separatorMarginBottom"></div>
-        </header>
+        <script src="../path/autoInfo.js"></script>
+        <script src="../info/worksInfo.js"></script>
+    </head>
     
-    <section class="container">
-        <h1 id="title"></h1>
-        <div class="separator"></div>
-        <div class="banner" id="wBanner"></div>
-        <iframe id="wIframe" height="100%" width="100%" frameBorder="0" ></iframe>
-        
-        <h2>Descripción</h2>
-        <p class="text" id="description"></p>
-        
-        <h2>Características</h2>
-        <p class="text" id="features" style="white-space: pre;"></p>
+    <body onload="OnLoadTHISWORK('apolo')">
 
-        <h2>Tecnologías</h2>
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="techtags"></div>
-        </div>
-
-
-
-        <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <div class="slider sliderText">
-                                <div class="slider-title">Detalles</div>
-                                <strong>Fecha de Realización</strong><div class="sliderTextSep" id="details-date"></div>
-                                <strong>Versión</strong><div class="sliderTextSep" id="details-version"></div>
-                                <strong>Género</strong><div class="sliderTextSep" id="details-gender"></div>
-                                <strong>Lenguajes</strong><div class="sliderTextSep" id="details-language"></div>
-                                <strong>Tipo </strong><div class="sliderTextSep" id="details-type"></div>
-                        </div>
+        <header class="container">
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <div class="isologo">
+                    <div class="logo-img"><img src="../img/icons/logo.svg"></div>
+                    <div class="logo-title">Ciarlantini<br>Darío</div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <div class="slider sliderText">
-                                <div class="slider-title">Creditos</div>
-                                <div id="staff"></div>
-                        </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" 
+                    aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExample03">
+                    <div class="d-block d-sm-block d-md-none separator"></div>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../works.html">TRABAJOS</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../about.html">SOBRE MÍ</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../contact.html">CONTACTO</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <div class="slider sliderText">
-                                <div class="slider-title">Requerimientos</div>
-                                <strong>Sistemas Operativos</strong><div class="sliderTextSep" id="requirements-os"></div>
-                                <strong>Procesador / Memoria</strong><div class="sliderTextSep" id="requirements-processorMemory"></div>
-                                <strong>Almacenamiento</strong><div class="sliderTextSep" id="requirements-storage"></div>
-                                <strong>Gráficos</strong><div class="sliderTextSep" id="requirements-graphics"></div>
-                                <strong>Red</strong><div class="sliderTextSep" id="requirements-net"></div>
-                                <strong>Notas adicionales</strong><div class="sliderTextSep" id="requirements-notes"></div>
-                        </div>
-                </div>
-        </div>
-        
-            <h1>Screenshots</h1>
+            </nav>
             <div class="separator separatorMarginBottom"></div>
+        </header>
+        <section class="container">
+            <h1 id="title"></h1>
+            <div class="separatorSub"></div>
+            <div class="banner" id="wBanner"></div>
+            <iframe id="wIframe" height="100%" width="100%" frameBorder="0" ></iframe>
+            <h2>Descripción</h2>
+            <p class="descriptionText" id="description"></p>
+            <h2>Características</h2>
+            <p class="featuresText" id="features"></p>
+            <h2>Tecnologías</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="techtags"></div>
+            </div>
+            <h2 class="separatorMarginTop">Fichas</h2>
+            <div class="separatorSub"></div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class="slider sliderText">
+                        <div class="slider-title">Detalles</div>
+                        <strong>Fecha de Realización</strong>
+                        <div class="sliderTextSep" id="details-date"></div>
+                        <strong>Versión</strong>
+                        <div class="sliderTextSep" id="details-version"></div>
+                        <strong>Género</strong>
+                        <div class="sliderTextSep" id="details-gender"></div>
+                        <strong>Lenguajes</strong>
+                        <div class="sliderTextSep" id="details-language"></div>
+                        <strong>Tipo </strong>
+                        <div class="sliderTextSep" id="details-type"></div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class="slider sliderText">
+                        <div class="slider-title">Creditos</div>
+                        <div id="staff"></div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class="slider sliderText">
+                        <div class="slider-title">Requerimientos</div>
+                        <strong>Sistemas Operativos</strong>
+                        <div class="sliderTextSep" id="requirements-os"></div>
+                        <strong>Procesador / Memoria</strong>
+                        <div class="sliderTextSep" id="requirements-processorMemory"></div>
+                        <strong>Almacenamiento</strong>
+                        <div class="sliderTextSep" id="requirements-storage"></div>
+                        <strong>Gráficos</strong>
+                        <div class="sliderTextSep" id="requirements-graphics"></div>
+                        <strong>Red</strong>
+                        <div class="sliderTextSep" id="requirements-net"></div>
+                        <strong>Notas adicionales</strong>
+                        <div class="sliderTextSep sliderTextNote" id="requirements-notes"></div>
+                    </div>
+                </div>
+            </div>
+            <h1 id="headerScreenshots">Screenshots</h1>
+            <div id="separatorScreenshots" class="separatorSub separatorMarginBottom"></div>
             <div class="row separatorMarginBottom">
                 <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
-                        <a id="ss1"><img id="ssImg1"></a>
+                    <a id="ss1"><img id="ssImg1"></a>
                 </div>
                 <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
-                        <a id="ss2"><img id="ssImg2"></a>
+                    <a id="ss2"><img id="ssImg2"></a>
                 </div>
                 <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
-                        <a id="ss3"><img id="ssImg3"></a>
+                    <a id="ss3"><img id="ssImg3"></a>
                 </div>
                 <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
-                        <a id="ss4"><img id="ssImg4"></a>
+                    <a id="ss4"><img id="ssImg4"></a>
                 </div>
                 <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
-                        <a id="ss5"><img id="ssImg5"></a>
+                    <a id="ss5"><img id="ssImg5"></a>
                 </div>
                 <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
-                        <a id="ss6"><img id="ssImg6"></a>
+                    <a id="ss6"><img id="ssImg6"></a>
                 </div>
             </div>
-
-             
             <h1>Links</h1>
-            <div class="separator"></div>       
+            <div class="separatorSub"></div>
             <div class="row">
-                    <!--<div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
-                        <a href=""><div class="linksbox linksboxItchIo">itch.io</div></a>
-                    </div>-->
-                    <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
-                        <a id="link1"><div id="linkbox1" class="linksbox"></div></a>
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
-                        <a id="link2"><div id="linkbox2" class="linksbox"></div></a>
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
-                        <a id="link3"><div id="linkbox3" class="linksbox"></div></a>
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
-                        <a id="link4"><div id="linkbox4" class="linksbox"></div></a>
-                    </div>
+                <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
+                    <a id="link1">
+                        <div id="linkbox1" class="linksbox"></div>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
+                    <a id="link2">
+                        <div id="linkbox2" class="linksbox"></div>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
+                    <a id="link3">
+                        <div id="linkbox3" class="linksbox"></div>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
+                    <a id="link4">
+                        <div id="linkbox4" class="linksbox"></div>
+                    </a>
+                </div>
             </div>
-    </section>
-    
-
-    <footer class="container separatorMarginTop">
-            <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <div class="separator"></div>
-                            <div id="footertext">© 2018 | Creado por Darío Ciarlantini  | Portfolio</div>
-                    </div>
+        </section>
+        <footer class="container separatorMarginTop">
+            <div class="separator"></div>
+            <div class="footerText">© 2018 | Creado por Darío Ciarlantini  | Portfolio</div>
+            <div class="footerNote">Los contenidos mostrados fueron desarrollado con sin fines de lucro. Solo son demostraciones. 
+                Se requiere un navegador compatible con HTML 5, CCS 3 y JavaScript para poder ver todos los contenidos mostrados en el sitio.
             </div>
-    </footer>
-
-    <script src="../path/jquery-3.3.1.js"></script>
-    <script src="../path/jquery-ui/jquery-ui.min.js"></script>
-    <link rel="stylesheet" href="../path/jquery-ui/jquery-ui.min.css">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
-    <!--<script src="path/popper.js"></script>-->
-    <script src="../path/bootstrap/js/bootstrap.min.js"></script>
-
-</body>
+        </footer>
+        <script src="../path/jquery-3.3.1.js"></script>
+        <script src="../path/jquery-ui/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="../path/jquery-ui/jquery-ui.min.css">
+        <script src="../path/popper.js"></script>
+        <script src="../path/bootstrap/js/bootstrap.min.js"></script>
+    </body>
 </html>
