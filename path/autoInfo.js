@@ -34,6 +34,10 @@ function LoadBanner(){
     // + Cargar banner según dirección asignada
 }
 
+function LoadIframe(){
+    // + load iframe
+}
+
 function LoadTitle(){
     document.getElementById("title").textContent= thisWork.title;
 }
@@ -125,66 +129,42 @@ function LoadShereLinks(){
             div.textContent = "Itch.Io";
             div.classList.add("linksboxItchIo");
         }
+        else if(0 <= element.search("github")){
+            link.href = element;
+            div.textContent = "GitHub";
+            div.classList.add("linksboxGitHub");
+        }
+        else if(0 <= element.search("steam")){
+            link.href = element;
+            div.textContent = "Steam";
+            div.classList.add("linksboxSteam");
+        }
+        else if(0 <= element.search("reedit")){
+            link.href = element;
+            div.textContent = "Reedit";
+            div.classList.add("linksboxReedit");
+        }
+        else if(0 <= element.search("drive")){
+            link.href = element;
+            div.textContent = "Drive";
+            div.classList.add("linksboxGoogleDrive");
+        }
+        else if(0 <= element.search("youtu")){
+            link.href = element;
+            div.textContent = "Youtube";
+            div.classList.add("linksboxYouTube");
+        }
+        else if(0 <= element.search("vimeo")){
+            link.href = element;
+            div.textContent = "Video";
+            div.classList.add("linksboxVimeo");
+        }
         else{
             div.classList.add("elementOff");
         }
 
-        /*
-
-        .linksboxTwitter{color: #2AA3EF;}
-.linksboxTwitter:hover{color: white; background-color: #2AA3EF; border: 3px solid #2AA3EF;}
-
-.linksboxLinkedIn{color: #1178B3;}
-.linksboxLinkedIn:hover{color: white; background-color: #1178B3; border: 3px solid #1178B3;}
-
-.linksboxSteam{color: #b52ac2;}
-.linksboxSteam:hover{color: white; background-color: #b52ac2; border: 3px solid #b52ac2;}
-
-.linksboxReedit{color: #FC471E;}
-.linksboxReedit:hover{color: white; background-color: #FC471E; border: 3px solid #FC471E;}
-
-.linksboxItchIo{color: #F75D60;}
-.linksboxItchIo:hover{color: white; background-color: #F75D60; border: 3px solid #F75D60;}
-
-.linksboxGoogleDrive{color: #F9BB2D;}
-.linksboxGoogleDrive:hover{color: white; background-color: #F9BB2D; border: 3px solid #F9BB2D;}
-
-.linksboxGitHub{color: #582E7C;}
-.linksboxGitHub:hover{color: white; background-color: #582E7C; border: 3px solid #582E7C;}
-
-.linksboxVimeo{color: #5f93ab;}
-.linksboxVimeo:hover{color: white; background-color: #5f93ab; border: 3px solid #5f93ab;}
-
-
-
-
-
-*/
-
         i++;
     });
 
-    /*
-    for(i = 1; i => 4;i++){
-
-        
-
-        if (i <= thisWork.ssNumber){
-            
-            a.href = "../img/" + thisWork.folderImgName + "/" + i + ".jpg";
-    
-            b.src = "../img/" + thisWork.folderImgName + "/" + i + ".jpg";
-            b.alt = thisWork.title + " Screenshots";
-            b.classList.add("screenShots");
-
-            // class link
-            // link
-            .textContent= result; // nombre del Link
-        }
-        else{
-            b.classList.add("elementOff");
-        }  
-    }
-*/
 }
 

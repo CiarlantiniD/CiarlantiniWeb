@@ -340,6 +340,9 @@ a:hover {
 .linksboxVimeo{color: #5f93ab;}
 .linksboxVimeo:hover{color: white; background-color: #5f93ab; border: 3px solid #5f93ab;}
 
+.linksboxYouTube{color: #FF0001;}
+.linksboxYouTube:hover{color: white; background-color: #FF0001; border: 3px solid #FF0001;}
+
 
 /* =========== Footer ========== */
 
