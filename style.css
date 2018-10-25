@@ -224,7 +224,7 @@ a:hover {
  }
  
  .slider-title{
-    font-size: 32px;
+    font-size: 28px; /* Revisar, antes estaba en 32px*/
     font-weight: 400;
  }
 
