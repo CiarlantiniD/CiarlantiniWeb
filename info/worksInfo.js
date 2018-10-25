@@ -2,6 +2,7 @@ var works = [
     {
       "folderImgName": "apolo",
       "title": "APOLO",
+      "banner" : "true",
       "iframe" : "",
       "description": "El jugador toma el papel de un tripulante de la nave Apolo que se dirige hacia la Luna. En el trascurso del viaje el jugador tiene que ir completando unas serie de tareas de mantenimiento ingresando unos comandos a la computadora de abordo. El objetivo es llegar a salvo al destino.",
       "shortDescription" : "-",

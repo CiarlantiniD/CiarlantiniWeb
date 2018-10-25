@@ -31,7 +31,13 @@ function LoadWebMeta(){
 }
 
 function LoadBanner(){
-    // + Cargar banner según dirección asignada
+    if (thisWork.banner){
+        var bannerDir = 'url("../img/' +  thisWork.title + '/banner.png")';
+        document.getElementById("wBanner").style.backgroundImage = bannerDir;
+    }
+    else {
+        document.getElementById("wBanner").classList.add("elementOff");
+    }
 }
 
 function LoadIframe(){
