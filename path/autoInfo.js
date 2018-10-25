@@ -10,6 +10,7 @@ function OnLoad(){
     LoadWebMeta();
 
     LoadBanner();
+    LoadIframe();
     LoadTitle();
     LoadDescription();
     LoadFeatures();
@@ -41,7 +42,14 @@ function LoadBanner(){
 }
 
 function LoadIframe(){
-    // + load iframe
+
+    if (thisWork.iframe){
+        var iframeDir = "../support/" + thisWork.iframe;
+        document.getElementById("wIframe").src = iframeDir;
+    }
+    else {
+        document.getElementById("wIframe").classList.add("elementOff");
+    }
 }
 
 function LoadTitle(){
