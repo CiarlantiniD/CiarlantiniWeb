@@ -2,13 +2,19 @@
 var ex = {folderImgName: "",title: "",description: "",features: "",techtags: "",
 date: "", version: "",gender: "",language: "",type: "",os: "",processor: "",memory: "",graphics: "",storage: "",net: "",notes: "",staff: "",ssNumber : 0}
 
+
 var thisWork;
 
-
-function OnLoadHOME();
+//function OnLoadHOME(){};
 
 function OnLoadTHISWORK(nameWork){
-    thisWork = works[0]; // modificar por selector de Nombres por el titulo
+
+    works.forEach(element => {
+        
+        if (element.title == nameWork){
+            thisWork = element;
+        }
+    });
 
     LoadWebMeta();
     LoadBanner();
@@ -27,12 +33,13 @@ function OnLoadTHISWORK(nameWork){
 function LoadWebMeta(){
     
     var newTitle = "Darío Ciarlantini // Trabajos // " + thisWork.title;
+    var ogTitle = "Darío Ciarlantini | " + thisWork.title;
     var bannerDir = "../img/" +  thisWork.title + "/banner.png";
 
     document.title = newTitle
     $('meta[name=description]').attr('content', thisWork.shortDescription);
 
-    $("meta[property='og:title']").attr("content", newTitle);
+    $("meta[property='og:title']").attr("content", ogTitle);
     $("meta[property='og:image']").attr("content", bannerDir);
     $("meta[property='og:description']").attr("content", thisWork.shortDescription);
 }
@@ -122,9 +129,9 @@ function LoadScreenShots(){
 
         if (i <= thisWork.ssNumber){
             
-            a.href = "../img/" + thisWork.folderImgName + "/" + i + ".jpg";
+            a.href = "../img/" + thisWork.folderName + "/" + i + ".jpg";
     
-            b.src = "../img/" + thisWork.folderImgName + "/" + i + ".jpg";
+            b.src = "../img/" + thisWork.folderName + "/" + i + ".jpg";
             b.alt = thisWork.title + " Screenshots";
             b.classList.add("screenShots");
         }
