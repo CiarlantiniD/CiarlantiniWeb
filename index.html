@@ -17,6 +17,8 @@
     <meta property="og:image" content="img/icons/open_graph_logo.png">
     <meta property="og:description" content="Portfolio de Dario Ciarlantini. Aspirante a desarrollador y amante del diseño.">
     
+    <script src="path/autoInfo.js"></script>
+    <script src="info/worksInfo.js"></script>
 
     
 <script>
@@ -31,7 +33,8 @@
 </script>
 </head>
 
-<body>
+<body onload="OnLoadHOME('generalajs','generalajs','juggerhound','apolo')"><!-- lunarlander -->
+
     <header class="container">
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="isologo">
@@ -68,53 +71,12 @@
 
     <section class="container">
 
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                        <a href="works/lunarLander.html">
-                            <div class="banner">
-                                <div class="banner-title">Lunar Lander</div>
-                                    Usa tus habilidades para aterrizas en la superficie de la Luna. Tienes que ser cuidadoso. 
-                                        Solo un descenso despacio y en la posición correcta te permitirá ganar este clásico de Atari.
-                            </div>
-                        </a>
-                    </div>
-                </div>
+            <div class="row" id="bannerRow"></div>
 
             <h1>Relevantes</h1>
             <div class="separator"></div>
-            <div class="row">
-                
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <a href="works/jsGenerala.html">
-                        <div class="slider sliderCover">
-                                <div class="tag tagNew" style="display: block">Nuevo</div>
-                                <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
-                                <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
-                                <div class="slider-title">Generala JS</div>
-                                Generala desarrollada en Javascript que funciona con solo un botón de manera casi automatica.
-                        </div>
-                </a>
-                </div>
-                
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <a href="works/juggerHound.html">
-                        <div class="slider sliderCover">
-                            <div class="slider-title">JuggerHound</div>
-                            Adaptación de Megaman. El jugador tiene que desplazarse por el escenario disparando a los enemigos. 
-                            Al final del nivel hay que enfrentarse al jefe final para conseguir la victoria.
-                        </div>
-                    </a>
-              </div>
-            
-              <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <a href="works/apolo.html">
-                    <div class="slider sliderCover">
-                            <div class="slider-title">APOLO</div>
-                            El jugador toma el papel de un tripulante de la nave Apolo que se esta dirigiendo hacia la Luna. 
-                            El objetivo es llegar a salvo al destino.
-                    </div>
-                </a>
-              </div>
+            <div class="row" id="relevantRow">
+              
             
             </div>
 
@@ -126,7 +88,6 @@
                            <div class="perfil-img"></div>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8 perfil-text">
-                            
                                 Amante del software y el diseño. Busco entrar en el apasionante mundo de los videojuegos. 
                                     Conocer su industria y ayudar a crear obras que trasmitan nuevas ideas a sus jugadores y los haga reflexionar, sin dejar de lado la diversión.
                             

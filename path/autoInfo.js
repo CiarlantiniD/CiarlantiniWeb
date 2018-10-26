@@ -1,11 +1,58 @@
-
-var ex = {folderImgName: "",title: "",description: "",features: "",techtags: "",
-date: "", version: "",gender: "",language: "",type: "",os: "",processor: "",memory: "",graphics: "",storage: "",net: "",notes: "",staff: "",ssNumber : 0}
-
-
 var thisWork;
 
-//function OnLoadHOME(){};
+function OnLoadHOME(banner, relevatWork1, relevatWork2, relevatWork3){
+
+    var firstSlider = null;
+    var secondSlider = null;
+    var thirdSlider = null;
+
+    works.forEach(element => {
+        
+        if(element.folderName == banner){
+            thisWork = element;
+            CreateBanner();
+        }
+        else if(element.folderName == relevatWork1){
+            firstSlider = element;
+        }
+        else if(element.folderName == relevatWork2){
+            secondSlider = element;
+        }
+        else if(element.folderName == relevatWork3){
+            thirdSlider = element;
+        }
+       
+        
+    });
+
+    if(firstSlider != null){
+        thisWork = firstSlider;
+        CreateSliders("relevant");
+    }
+
+    if(secondSlider != null){
+        thisWork = secondSlider;
+        CreateSliders("relevant");
+    }
+
+    if(thirdSlider != null){
+        thisWork = thirdSlider;
+        CreateSliders("relevant");
+    }
+
+}
+
+
+
+function OnLoadALLWORKS(){
+
+    works.forEach(element => {
+        CreateSliders(thisWork.category);
+        thisWork = element;
+    });
+}
+
+
 
 function OnLoadTHISWORK(nameWork){
 
@@ -29,6 +76,131 @@ function OnLoadTHISWORK(nameWork){
     LoadScreenShots();
     LoadShereLinks();
 }
+
+
+
+function CreateBanner(){
+
+    var newBanner = document.createElement('div');
+    newBanner.classList.add("col-sm-12");
+    newBanner.classList.add("col-md-12");
+    newBanner.classList.add("col-lg-12");
+    newBanner.classList.add("col-xl-12");
+
+    var newBannerLink = document.createElement('a');
+    newBannerLink.href = "works/"  + thisWork.folderName + ".html";
+
+    var newBannerContainer = document.createElement('div');
+    newBannerContainer.classList.add("banner");
+
+    var bannerDir = 'url("img/' +  thisWork.folderName + '/banner.svg")';
+    newBannerContainer.style.backgroundImage = bannerDir;
+
+/*
+    var currentDate = new Date();
+    var workDateAdded = new Date(thisWork.dateAdded);
+    currentDate.setDate(currentDate.getDate()-30);
+    
+    if(currentDate < workDateAdded){
+        var tagNew = document.createElement('div');
+        tagNew.textContent = "Nuevo";
+        tagNew.classList.add("tag");
+        tagNew.classList.add("tagNew");
+
+        newBannerContainer.appendChild(tagNew);
+    }
+    else if(!thisWork.dateAdded){
+        var tagComingSoon = document.createElement('div');
+        tagComingSoon.textContent = "Próximamente";
+        tagComingSoon.classList.add("tag");
+        tagComingSoon.classList.add("tagComingSoon");
+
+        newBannerContainer.appendChild(tagComingSoon);
+    }*/
+
+    var newBannerTitle = document.createElement('div');
+    newBannerTitle.classList.add("bannerTitle");
+    newBannerTitle.textContent = thisWork.title ;
+
+    var newBannerText = document.createElement('div');
+    newBannerText.textContent = thisWork.description;
+
+    
+    newBannerContainer.appendChild(newBannerTitle);
+    newBannerContainer.appendChild(newBannerText);
+
+    newBannerLink.appendChild(newBannerContainer);
+
+    newBanner.appendChild(newBannerLink);
+
+    document.getElementById("bannerRow").appendChild(newBanner);
+}
+
+
+function CreateSliders(assignedDiv){
+
+    var newSlice = document.createElement('div');
+    newSlice.classList.add("col-sm-12");
+    newSlice.classList.add("col-md-12");
+    newSlice.classList.add("col-lg-4");
+    newSlice.classList.add("col-xl-4");
+
+    var newSliceLink = document.createElement('a');
+    newSliceLink.href = "works/"  + thisWork.folderName + ".html";
+
+    var newSliceContainer = document.createElement('div');
+    newSliceContainer.classList.add("slider");
+    newSliceContainer.classList.add("sliderCover");
+
+    var sliceDir = 'url("img/' +  thisWork.folderName + '/banner.svg")';
+    newSliceContainer.style.backgroundImage = sliceDir;
+
+
+    var currentDate = new Date();
+    var workDateAdded = new Date(thisWork.dateAdded);
+    currentDate.setDate(currentDate.getDate()-30);
+    
+    if(currentDate < workDateAdded){
+        var tagNew = document.createElement('div');
+        tagNew.textContent = "Nuevo";
+        tagNew.classList.add("tag");
+        tagNew.classList.add("tagNew");
+
+        newSliceContainer.appendChild(tagNew);
+    }
+    else if(!thisWork.dateAdded){
+        var tagComingSoon = document.createElement('div');
+        tagComingSoon.textContent = "Próximamente";
+        tagComingSoon.classList.add("tag");
+        tagComingSoon.classList.add("tagComingSoon");
+
+        newSliceContainer.appendChild(tagComingSoon);
+    }
+
+    var newSliceTitle = document.createElement('div');
+    newSliceTitle.classList.add("sliderTitle");
+    newSliceTitle.textContent = thisWork.title ;
+
+    var newSliceText = document.createElement('div');
+    newSliceText.textContent = thisWork.shortDescription;
+
+    
+    newSliceContainer.appendChild(newSliceTitle);
+    newSliceContainer.appendChild(newSliceText);
+
+    newSliceLink.appendChild(newSliceContainer);
+
+    newSlice.appendChild(newSliceLink);
+
+    document.getElementById(assignedDiv + "Row").appendChild(newSlice);
+}
+
+
+
+
+
+
+/* -------------  Load Function ------------- */
 
 function LoadWebMeta(){
     

@@ -26,7 +26,9 @@ var works = [
     "link1": "https://ciarlantinid.itch.io/apolo",
     "link2": "",
     "link3": "",
-    "link4": ""
+    "link4": "",
+    "dateAdded": "1/01/2018",
+    "category": "videogame"
   },
   {
     "fullTitle": "I Love My Dinosaur!",
@@ -55,7 +57,9 @@ var works = [
     "link1": "https://github.com/ELDUODINAMITA/I-Love-my-Dinosaur",
     "link2": "",
     "link3": "",
-    "link4": ""
+    "link4": "",
+    "dateAdded": "1/01/2018",
+    "category": "videogame"
   },
   {
     "fullTitle": "Lunar Lander",
@@ -84,7 +88,9 @@ var works = [
     "link1": "https://ciarlantinid.itch.io/lunarlander",
     "link2": "",
     "link3": "",
-    "link4": ""
+    "link4": "",
+    "dateAdded": "1/01/2018",
+    "category": "videogame"
   },
   {
     "fullTitle": "Jugger Hound",
@@ -113,7 +119,9 @@ var works = [
     "link1": "https://ciarlantinid.itch.io/juggerhound",
     "link2": "",
     "link3": "",
-    "link4": ""
+    "link4": "",
+    "dateAdded": "1/01/2018",
+    "category": "videogame"
   },
   {
     "fullTitle": "BreakBoot",
@@ -122,7 +130,7 @@ var works = [
     "banner": "TRUE",
     "iframe": "",
     "description": "El objetivo es descifrar la contraseña del sistema. Para eso, es necesario leer la información guardada en la memoria. Ahí se encuentran los caracteres de la contraseña. La herramienta de Hacking ayuda al jugador con pistas, pero los intentos son limitados.",
-    "shortDescription": "El objetivo es descifrar la contraseña del sistema. Para eso, es necesario leer la información guardada en la memoria. Ahí se encuentran los caracteres de la contraseña. La herramienta de Hacking ayuda al jugador con pistas, pero los intentos son limitados.",
+    "shortDescription": "Descifra la contraseña. Lee la información en la pantalla y  encuentran los caracteres en esta herramienta de hacking.",
     "features": "Obtener la contraseña escondida dentro del código;Tienes una cantidad limitada de oportunidades para descubirir la contraseña;Cada vez pierdas una oportunidad, se obtiene una ayuda",
     "techtags": "C#",
     "date": 2015,
@@ -142,7 +150,9 @@ var works = [
     "link1": "https://ciarlantinid.itch.io/breakboot",
     "link2": "",
     "link3": "",
-    "link4": ""
+    "link4": "",
+    "dateAdded": "1/01/2018",
+    "category": "videogame"
   },
   {
     "fullTitle": "Generala semi-automatica en Javascript",
@@ -171,7 +181,9 @@ var works = [
     "link1": "https://github.com/CiarlantiniD/JSgenerala",
     "link2": "",
     "link3": "",
-    "link4": ""
+    "link4": "",
+    "dateAdded": "10/10/2018",
+    "category": "javascript"
   },
   {
     "fullTitle": "Calculadora en Javascript",
@@ -200,7 +212,9 @@ var works = [
     "link1": "https://github.com/CiarlantiniD/JScal",
     "link2": "",
     "link3": "",
-    "link4": ""
+    "link4": "",
+    "dateAdded": "1/01/2018",
+    "category": "javascript"
   },
   {
     "fullTitle": "Formulario Simple en Bootstrap",
@@ -229,7 +243,9 @@ var works = [
     "link1": "http://ciarlantini.com.ar/bootstrapform/index.html",
     "link2": "",
     "link3": "",
-    "link4": ""
+    "link4": "",
+    "dateAdded": "1/01/2018",
+    "category": "javascript"
   },
   {
     "fullTitle": "Counter Strike Map",
@@ -258,7 +274,9 @@ var works = [
     "link1": "https://github.com/CiarlantiniD/Counter-Strike-Map",
     "link2": "",
     "link3": "",
-    "link4": ""
+    "link4": "",
+    "dateAdded": "1/01/2018",
+    "category": "gamedesign"
   },
   {
     "fullTitle": "Script FFmpeg",
@@ -287,7 +305,9 @@ var works = [
     "link1": "https://github.com/CiarlantiniD/ServerScripting",
     "link2": "",
     "link3": "",
-    "link4": ""
+    "link4": "",
+    "dateAdded": "1/01/2018",
+    "category": "scripting"
   },
   {
     "fullTitle": "Script Presentes",
@@ -316,6 +336,8 @@ var works = [
     "link1": "https://github.com/CiarlantiniD/Presentes",
     "link2": "",
     "link3": "",
-    "link4": ""
+    "link4": "",
+    "dateAdded": "1/01/2018",
+    "category": "scripting"
   }
 ]

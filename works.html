@@ -16,9 +16,12 @@
     <meta property="og:title" content="Dario Ciarlantini | Trabajos">
     <meta property="og:image" content="img/icons/open_graph_logo.png">
     <meta property="og:description" content="Portfolio de Dario Ciarlantini. Aspirante a desarrollador y amante del diseño.">
+
+    <script src="path/autoInfo.js"></script>
+    <script src="info/worksInfo.js"></script>
 </head>
 
-<body>
+<body onload="OnLoadALLWORKS()">
         <header class="container">
                 <nav class="navbar navbar-expand-md navbar-light bg-light">
                     <div class="isologo">
@@ -55,163 +58,23 @@
 
 
     <section class="container">
-
-            <h1>Videojuegos</h1>
-            <div class="separator"></div>
-            <div class="row">
-                
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <a href="works/ilovemydinosaur.html">
-                        <div class="slider sliderCover">
-                                <div class="tag tagNew" style="display: none">Nuevo</div>
-                                <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
-                                <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
-                                <div class="slider-title">I Love My Dinosaur!</div>
-                                Cuida a tu dinosaurio de las entidades del gobierno que quiere quitartelo! Mantenerlo con vida y hacerlo feliz.
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <a href="works/lunarlander.html">
-                            <div class="slider sliderCover">
-                                    <div class="tag tagNew" style="display: none">Nuevo</div>
-                                    <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
-                                    <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
-                                    <div class="slider-title">LunarLander</div>
-                                    Usa tus habilidades para aterrizar en la superficie de la Luna. Solo un descenso lento suave te permitirá ganar.
-                            </div>
-                        </a>
-                </div>
-
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <a href="works/juggerHound.html">
-                            <div class="slider sliderCover">
-                                    <div class="tag tagNew" style="display: none">Nuevo</div>
-                                    <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
-                                    <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
-                                    <div class="slider-title">JuggerHound</div>
-                                    Tienes que desplazarse por el escenario disparando a los enemigos y evitando que ello te infrinja daño.
-                            </div>
-                        </a>
-                </div>
-
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <a href="works/apolo.html">
-                            <div class="slider sliderCover">
-                                    <div class="tag tagNew" style="display: none">Nuevo</div>
-                                    <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
-                                    <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
-                                    <div class="slider-title">APOLO</div>
-                                    Conduce el modulo lunar Apolo. Completa una serie de tareas e intenta llegar vivo al destino. ¡La Luna!
-                            </div>
-                        </a>
-                </div>
-
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <a href="works/breakboot.html">
-                            <div class="slider sliderCover">
-                                    <div class="tag tagNew" style="display: none">Nuevo</div>
-                                    <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
-                                    <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
-                                    <div class="slider-title">BreakBoot</div>
-                                    Descifra la contraseña. Lee la información en la pantalla y  encuentran los caracteres en esta herramienta de hacking.
-                            </div>
-                        </a>
-                </div>
-            </div>
-
-            <h1>Javascript</h1>
-            <div class="separator"></div>
-            <div class="row">
             
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <a href="works/generalajs.html">
-                            <div class="slider sliderCover">
-                                    <div class="tag tagNew" style="display: block">Nuevo</div>
-                                    <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
-                                    <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
-                                    <div class="slider-title">Generala JS</div>
-                                    Generala desarrollada en Javascript que funciona con solo un botón de manera casi automatica.
-                            </div>
-                        </a>
-                </div>
+                <h1>Videojuegos</h1>
+                <div class="separator"></div>
+                <div class="row" id="videogameRow"></div>
 
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <a href="works/calculadorajs.html">
-                            <div class="slider sliderCover">
-                                    <div class="tag tagNew" style="display: none">Nuevo</div>
-                                    <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
-                                    <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
-                                    <div class="slider-title">Calculadora JS</div>
-                                    Calculadora desarrollada en Javascript como práctica del lenguaje.
-                            </div>
-                        </a>
-                </div>
+                <h1>Javascript</h1>
+                <div class="separator"></div>
+                <div class="row" id="javascriptRow"></div>
 
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <a href="works/bootstrapform.html">
-                            <div class="slider sliderCover">
-                                    <div class="tag tagNew" style="display: none">Nuevo</div>
-                                    <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
-                                    <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
-                                    <div class="slider-title">Bootstrap Form</div>
-                                    Formulario simple con las opciones que provee bootstrap.
-                            </div>
-                        </a>
-                </div>
-            
-            </div>
-            <h1>Game Design</h1>
-            <div class="separator"></div>
-            <div class="row">
+                <h1>Game Design</h1>
+                <div class="separator"></div>
+                <div class="row" id="gamedesignRow"></div>
 
-                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                            <a href="works/counterstrikemap.html">
-                                <div class="slider sliderCover">
-                                        <div class="tag tagNew" style="display: none">Nuevo</div>
-                                        <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
-                                        <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
-                                        <div class="slider-title">Counter Strike Map</div>
-                                        Concepto de mapa para Counter Strike realizado en Unity.
-                                </div>
-                            </a>
-                    </div>
+                <h1>Scripting</h1>
+                <div class="separator"></div>
+                <div class="row" id="scriptingRow"></div>
 
-
-
-
-
-
-            </div>
-            <h1>Scripting</h1>
-            <div class="separator"></div>
-            <div class="row">
-
-                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                            <a href="works/scriptffmpeg.html">
-                                <div class="slider sliderCover">
-                                        <div class="tag tagNew" style="display: none">Nuevo</div>
-                                        <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
-                                        <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
-                                        <div class="slider-title">FFmpeg Scripting</div>
-                                        Script basado en Bash para realizar transcodificaciones de diferentes tipos de archivos con FFmpeg en terminal de Linux.
-                                </div>
-                            </a>
-                    </div>
-
-                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                            <a href="works/scriptpresentes.html">
-                                <div class="slider sliderCover">
-                                        <div class="tag tagNew" style="display: none">Nuevo</div>
-                                        <!--<div class="tag tagComingSoon" style="display: block">Próximamente</div>-->
-                                        <!--<div class="tag tagWIP" style="display: block">WIP</div>-->
-                                        <div class="slider-title">Script Presentes</div>
-                                        Script para enviar un mail atravez de Gmail como una plantilla del estado de presentes.
-                                </div>
-                            </a>
-                    </div>
-            </div>
     </section>
     
     <footer class="container separatorMarginTop">
