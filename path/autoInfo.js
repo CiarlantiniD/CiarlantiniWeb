@@ -47,8 +47,8 @@ function OnLoadHOME(banner, relevatWork1, relevatWork2, relevatWork3){
 function OnLoadALLWORKS(){
 
     works.forEach(element => {
-        CreateSliders(thisWork.category);
         thisWork = element;
+        CreateSliders(thisWork.category);
     });
 }
 

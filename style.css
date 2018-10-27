@@ -243,7 +243,10 @@ a:hover {
  .sliderCover{
     color: white;
     padding: 15em 1em 0em 1em;
-     /*background-size: 100% 100%;*/
+    background-size: auto 120%;
+    background-repeat: no-repeat;
+    background-position: center; 
+     /*background-size: contain;*/
 
  }
 
@@ -409,8 +412,17 @@ a:hover {
     padding: 2em;
     background-color: #555555;
     border-radius: 18px;
+    border: 1px solid #ffffff;
     color: aliceblue;
     margin: 1em 0;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center; 
+     /*background-size: contain;*/
+
+
+
+
     /*height: 40 rem;*/
     min-height: 420px;
     /*border-radius: 20px;
