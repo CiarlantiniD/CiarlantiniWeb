@@ -415,16 +415,17 @@ a:hover {
     border: 1px solid #ffffff;
     color: aliceblue;
     margin: 1em 0;
-    background-size: 100% auto;
+    background-size: auto 110%;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
+    min-height: 420px;
      /*background-size: contain;*/
 
-
+/* background-size: 100% auto;*/
 
 
     /*height: 40 rem;*/
-    min-height: 420px;
+    
     /*border-radius: 20px;
     margin: 20px 0px 50px 0px;
     
