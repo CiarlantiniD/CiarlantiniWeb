@@ -219,7 +219,7 @@ function LoadWebMeta(){
 function LoadBanner(){
 
     if (thisWork.banner){
-        var bannerDir = 'url("../img/' +  thisWork.folderName + '/banner.png")';
+        var bannerDir = 'url("../img/' +  thisWork.folderName + '/banner.svg")';
         document.getElementById("wBanner").style.backgroundImage = bannerDir;
     }
     else {
