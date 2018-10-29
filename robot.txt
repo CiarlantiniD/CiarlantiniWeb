@@ -1,8 +1,9 @@
 User-Agent: *
 Disallow: 
-Disallow: /css
-Disallow: /font-awesome
+Disallow: /path
 Disallow: /icon
 Disallow: /stats
 Disallow: /img
 Disallow: /develop
+Disallow: /support
+Disallow: /info
