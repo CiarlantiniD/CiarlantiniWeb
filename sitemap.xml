@@ -8,64 +8,24 @@
 
 
 <url>
-  <loc>http://ciarlantinid.com.ar/</loc>
-  <lastmod>2018-02-01T00:09:04+00:00</lastmod>
+  <loc>http://ciarlantini.com.ar/index.html</loc>
+  <lastmod>2018-10-29T09:59:02+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://ciarlantinid.com.ar/index.html</loc>
-  <lastmod>2018-02-01T00:09:04+00:00</lastmod>
+  <loc>http://ciarlantini.com.ar/works.html</loc>
+  <lastmod>2018-10-29T09:59:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ciarlantinid.com.ar/works.html</loc>
-  <lastmod>2018-02-01T00:09:04+00:00</lastmod>
+  <loc>http://ciarlantini.com.ar/about.html</loc>
+  <lastmod>2018-10-29T09:59:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ciarlantinid.com.ar/about.html</loc>
-  <lastmod>2018-02-01T00:09:04+00:00</lastmod>
+  <loc>http://ciarlantini.com.ar/contact.html</loc>
+  <lastmod>2018-10-29T09:59:02+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://ciarlantinid.com.ar/contact.html</loc>
-  <lastmod>2018-02-01T00:09:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://ciarlantinid.com.ar/works/lunarLander.html</loc>
-  <lastmod>2018-02-01T00:09:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://ciarlantinid.com.ar/works/juggerHound.html</loc>
-  <lastmod>2018-02-01T00:09:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://ciarlantinid.com.ar/works/apolo.html</loc>
-  <lastmod>2018-02-01T00:09:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://ciarlantinid.com.ar/works/breakboot.html</loc>
-  <lastmod>2018-02-01T00:09:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://ciarlantinid.com.ar/works/counterstrikemap.html</loc>
-  <lastmod>2018-02-01T00:09:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://ciarlantinid.com.ar/works/scriptFFmpeg.html</loc>
-  <lastmod>2018-02-01T00:09:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://ciarlantinid.com.ar/works/scriptPresentes.html</loc>
-  <lastmod>2018-02-01T00:09:04+00:00</lastmod>
-  <priority>0.64</priority>
 </url>
 
 
