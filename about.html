@@ -16,9 +16,11 @@
     <meta property="og:title" content="Dario Ciarlantini | Sobre Mí">
     <meta property="og:image" content="img/icons/open_graph_logo.png">
     <meta property="og:description" content="Portfolio de Dario Ciarlantini. Aspirante a desarrollador y amante del diseño.">
+
+    <script src="path/autoInfo.js"></script>
 </head>
 
-<body>
+<body onload="OnLoadABOUT()">
         <header class="container">
                 <nav class="navbar navbar-expand-md navbar-light bg-light">
                     <div class="isologo">
@@ -139,6 +141,7 @@
         <div class="origin">
                 <h2>Buenos Aires. Argentina.</h2>
         </div>
+        <div id="jsAlert" class="alert alert-danger" role="alert">El sitio requiere Javascript para ver los contenidos.</div>
     </section>
     
     <footer class="container separatorMarginTop">

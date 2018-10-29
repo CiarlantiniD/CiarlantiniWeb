@@ -2,6 +2,8 @@ var thisWork;
 
 function OnLoadHOME(banner, relevatWork1, relevatWork2, relevatWork3){
 
+    HideJavascriptAlert();
+
     var firstSlider = null;
     var secondSlider = null;
     var thirdSlider = null;
@@ -42,9 +44,17 @@ function OnLoadHOME(banner, relevatWork1, relevatWork2, relevatWork3){
 
 }
 
+function OnLoadABOUT(){
+    HideJavascriptAlert();
+}
+
+function OnLoadCONTACT(){
+    HideJavascriptAlert();
+}
 
 
 function OnLoadALLWORKS(){
+    HideJavascriptAlert();
 
     works.forEach(element => {
         thisWork = element;
@@ -55,6 +65,7 @@ function OnLoadALLWORKS(){
 
 
 function OnLoadTHISWORK(nameWork){
+    HideJavascriptAlert();
 
     works.forEach(element => {
         
@@ -77,6 +88,9 @@ function OnLoadTHISWORK(nameWork){
     LoadShereLinks();
 }
 
+function HideJavascriptAlert(){
+    document.getElementById("jsAlert").classList.add("elementOff");
+}
 
 
 function CreateBanner(){
@@ -281,11 +295,34 @@ function LoadDetails(){
 }
 
 function LoadStaff(){
-    var result = "";
+  
+    var staffDiv = document.getElementById("staff");
+
     thisWork.staff.split(";").forEach(element => {
-        result = result + element + "\r\n";
+
+        var titleStaff = element.split(")")[0].split("(")[1];
+        var persons = element.split(")")[1];
+
+        if(persons){
+            var strongTitle = document.createElement("strong");
+            strongTitle.textContent = titleStaff;
+
+            var ul = document.createElement("ul");
+
+        persons.split(",").forEach(element2 => {
+            
+            var li = document.createElement("li");
+            li.appendChild(document.createTextNode(element2));
+            ul.appendChild(li);
+        });
+
+        staffDiv.appendChild(strongTitle);
+        staffDiv.appendChild(ul);
+
+        }
+
+        
     });
-    document.getElementById("staff").textContent= result;
 }
 
 function LoadRequeriments(){
