@@ -232,6 +232,7 @@ function LoadIframe(){
     if (thisWork.iframe){
         var iframeDir = "../support/" + thisWork.folderName + "/index.html";
         document.getElementById("wIframe").src = iframeDir;
+        document.getElementById("wIframe").height = thisWork.iframe;
     }
     else {
         document.getElementById("wIframe").classList.add("elementOff");
