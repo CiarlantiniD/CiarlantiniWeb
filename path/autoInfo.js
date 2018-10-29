@@ -308,10 +308,11 @@ function LoadScreenShots(){
         if (i <= thisWork.ssNumber){
             
             a.href = "../img/" + thisWork.folderName + "/" + i + ".jpg";
-    
-            b.src = "../img/" + thisWork.folderName + "/" + i + ".jpg";
-            b.alt = thisWork.title + " Screenshots";
+
+            var ssDir = 'url("../img/' + thisWork.folderName + '/' + i + '.jpg")';
+            b.style.backgroundImage = ssDir;
             b.classList.add("screenShots");
+
         }
         else{
             b.classList.add("elementOff");
