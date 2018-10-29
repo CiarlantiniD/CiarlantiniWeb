@@ -318,12 +318,20 @@ a:hover {
     padding: 0.5em 1em 0.5em 1em;
 }
 
-.featuresText{
+.featuresText{ /* BORRAR */
     font-size: 22px;
     font-weight: 100;
 	line-height: 1.5em;
     padding: 0.5em 1em 0.5em 1em;
     white-space: pre;
+}
+
+.featuresUl{
+    font-size: 22px;
+    font-weight: 100;
+	line-height: 1.5em;
+    padding: 0.5em 1em 0.5em 1em;
+    margin-left: 1em;
 }
 
 .textBlock{
@@ -499,20 +507,10 @@ a:hover {
     border: 2px solid darkgray;
     background-color: whitesmoke;
     height: 170px;
-
     background-size: auto 200%;
     background-position: center;
     background-repeat: no-repeat;
     margin: 1em 0 0.5em 0;
-
-    /*
-        
-    
-    
-    min-height: 420px;
-    
-    
-    */
 }
 
 

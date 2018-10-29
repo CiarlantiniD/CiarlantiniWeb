@@ -247,12 +247,15 @@ function LoadDescription(){
 }
 
 function LoadFeatures(){
-    var result = "";
+    var ul = document.getElementById("features");
+
     thisWork.features.split(";").forEach(element => {
-        result = result + "· " + element + "\r\n";
+
+        var li = document.createElement("li");
+        li.appendChild(document.createTextNode(element + "."));
+        ul.appendChild(li);
     });
 
-    document.getElementById("features").textContent= result;
 }
 
 function LoadTechTags(){

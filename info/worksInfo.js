@@ -100,7 +100,7 @@ var works = [
     "iframe": "",
     "description": "Adaptación de Megaman. El jugador tiene que desplazarse por el escenario disparando a los enemigos y evitar que estos te infrinja daño. Al final del nivel tendrá que enfrentarse a un jefe final para conseguir la victoria.",
     "shortDescription": "Tienes que desplazarse por el escenario disparando a los enemigos y evitando que ello te infrinja daño.",
-    "features": "Avanzar por el nivel destruyendo a los enemigos;Pudes recuperar vida obteniendo botiquines dispersos por el escenario;Al final del nivel se tiene que derrotar a un Boss;",
+    "features": "Avanzar por el nivel destruyendo a los enemigos;Pudes recuperar vida obteniendo botiquines dispersos por el escenario;Al final del nivel se tiene que derrotar a un Boss",
     "techtags": "HaxeFlixel",
     "date": 2016,
     "version": "ALFA",
