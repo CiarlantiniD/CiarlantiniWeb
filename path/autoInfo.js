@@ -107,7 +107,7 @@ function CreateBanner(){
     var newBannerContainer = document.createElement('div');
     newBannerContainer.classList.add("banner");
 
-    var bannerDir = 'url("img/' +  thisWork.folderName + '/banner.svg")';
+    var bannerDir = 'url("img/' +  thisWork.folderName + '/banner.'+ thisWork.banner.toLowerCase() +  '")';
     newBannerContainer.style.backgroundImage = bannerDir;
 
 /*
@@ -166,7 +166,11 @@ function CreateSliders(assignedDiv){
     newSliceContainer.classList.add("slider");
     newSliceContainer.classList.add("sliderCover");
 
-    var sliceDir = 'url("img/' +  thisWork.folderName + '/banner.svg")';
+    var extencio;
+    if (thisWork.banner)extencio = thisWork.banner.toLowerCase();
+    else extencio = "svg";
+
+    var sliceDir = 'url("img/' +  thisWork.folderName + '/banner.'+ extencio + '")';
     newSliceContainer.style.backgroundImage = sliceDir;
 
 
@@ -220,7 +224,12 @@ function LoadWebMeta(){
     
     var newTitle = "Darío Ciarlantini // Trabajos // " + thisWork.title;
     var ogTitle = "Darío Ciarlantini | " + thisWork.title;
-    var bannerDir = "../img/" +  thisWork.title + "/banner.png";
+
+    var ext;
+    if(thisWork.banner) ext = thisWork.banner.toLowerCase();
+    else ext = "svg";
+    
+    var bannerDir = "../img/" +  thisWork.title + "/banner." + ext;
 
     document.title = newTitle
     $('meta[name=description]').attr('content', thisWork.shortDescription);
@@ -233,7 +242,8 @@ function LoadWebMeta(){
 function LoadBanner(){
 
     if (thisWork.banner){
-        var bannerDir = 'url("../img/' +  thisWork.folderName + '/banner.svg")';
+
+        var bannerDir = 'url("../img/' +  thisWork.folderName + '/banner.'+ thisWork.banner.toLowerCase() + '")';
         document.getElementById("wBanner").style.backgroundImage = bannerDir;
     }
     else {
