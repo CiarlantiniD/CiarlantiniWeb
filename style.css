@@ -6,24 +6,9 @@ body {
     color: #444 !important;
 }
 
-
-/*body {
-    width: 68em;
-    font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-    color: #666;
-    background: #fff;
-	font-size: 16px;
-    line-height: 1.6em;
-    margin: 0 auto;
-    padding: 0em 2em 0em 2em;
-}*/
-
 .elementOff{
     display: none;
 }
-
-
 
 /* =========== Typo ============= */
 
@@ -32,87 +17,27 @@ h1 {
     font-weight: 700 !important;
 }
 
-
-/*h1 {
-	font-size: 40px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    color: #444;
-    line-height: 0;
-}
 h2 {
-	font-size: 28px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-}
-h3 {
-	font-size: 32px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-}
-h4 {
-	font-size: 24px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
-	color: #444;
-}
-h5 {
-	font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
-	color: #444;
+	font-family: 'Lato', sans-serif !important;
 }
 
-h6 {
-	font-size: 15px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    color: #444;
-}*/
 
 /* =========== Links ============= */
 
 
-
-
-
-
-
-/*
-
-a:link {
-    color: #444; 
-    background-color: transparent; 
-    text-decoration: none;
-}
-
-a:visited {
-    color: #444;
-    background-color: transparent;
-    text-decoration: none;
+a {
+    color: #444 !important;
 }
 
 a:hover {
-    color: #DE484A;
-    background-color: transparent;
-    cursor:pointer;
+    color: #444 !important;
+    background-color: transparent !important;
+    text-decoration: none !important;
 }
-
-a:active {
-    color: #444;
-    background-color: transparent;
-}
-*/
-
-
-
-
-
 
 
 
 /* =========== Hearde ============= */
-
 
 .navbar-nav{
     font-family: 'Lato', sans-serif;
@@ -128,21 +53,9 @@ nav .navbar-nav li a{
     color: #444 !important;
 }
 
-
 .perfil-title a:hover {
     color: #DE484A !important;
 }
-
-a {
-    color: #444 !important;
-}
-
-a:hover {
-    color: #444 !important;
-    background-color: transparent !important;
-    text-decoration: none !important;
-}
-
 
 .isologo{
     margin: 0 0 0 -15px;
@@ -155,8 +68,6 @@ a:hover {
     height: 50px;
 }
 
-
-
 .logo-title {
     font-size: 20px;
     float: right;
@@ -168,23 +79,15 @@ a:hover {
 	line-height: 22px;
 }
 
-
-
-
-
-.menu {
-    text-align: center;
-    float: right;
-}
-.menu-items ul li {
-    display: inline;
-    padding-left: 0.6em;
-    font-weight: 600;
-}
-
 /* ========= Separator ========= */
 
 .separator{
+    background-color: rgb(206, 204, 204);
+    height: 1px;
+    width: 100%
+}
+
+.separatorSub{
     background-color: rgb(206, 204, 204);
     height: 1px;
     width: 100%
@@ -198,38 +101,16 @@ a:hover {
     margin-bottom: 1em; 
 }
 
-/*.separator{
-    background: #cecccc;
-    background: -moz-linear-gradient(left, #cecccc 0%, #ffffff 80%);
-    background: -webkit-linear-gradient(left, #cecccc 0%,#ffffff 80%);
-    background: linear-gradient(to right, #cecccc 0%,#ffffff 80%);
-    height: 1px;
-    width: 100%
-}*/
-
-.separatorSub{
-    background-color: rgb(206, 204, 204);
-    height: 1px;
-    width: 100%
-}
-
-
-
-
 
 /* =========== Slider ============= */
 
-.slider-contener{
-    margin: 20px 0px 0px 0px;
- }
- 
- .slider-title{ /* BORRAR*/
-    font-size: 28px; /* Revisar, antes estaba en 32px*/
+ .sliderTitle{
+    font-size: 28px;
     font-weight: 400;
  }
 
- .sliderTitle{
-    font-size: 28px; /* Revisar, antes estaba en 32px*/
+ .slider-title{
+    font-size: 28px;
     font-weight: 400;
  }
 
@@ -247,7 +128,6 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center; 
      /*background-size: contain;*/
-
  }
 
  .sliderText{
@@ -304,26 +184,11 @@ a:hover {
  
 /* ========== Text =============*/
 
-/*.text{
-    font-size: 22px;
-    font-weight: 100;
-	line-height: 1.5em;
-    padding: 0.5em 1em 0.5em 1em;
-}*/
-
 .descriptionText{
     font-size: 22px;
     font-weight: 100;
 	line-height: 1.5em;
     padding: 0.5em 1em 0.5em 1em;
-}
-
-.featuresText{ /* BORRAR */
-    font-size: 22px;
-    font-weight: 100;
-	line-height: 1.5em;
-    padding: 0.5em 1em 0.5em 1em;
-    white-space: pre;
 }
 
 .featuresUl{
@@ -334,11 +199,10 @@ a:hover {
     margin-left: 1em;
 }
 
-.textBlock{
-    font-size: 2em;
-    font-weight: 500;
+.contactMail{
     text-align: center;
-    padding: 1.5em 0em 1.5em 0em;
+    font-size: 2em;
+    margin: 1em 0 1em 0;
 }
 
 /* ========== LinkBox =============*/
@@ -349,7 +213,6 @@ a:hover {
     width: 100%;
     font-size: 32px;
     text-align: center;
-    /*padding: 5% 0;*/
     color: grey;
     font-size: 1.5em;
     padding: 0.55em;
@@ -410,10 +273,6 @@ a:hover {
     line-height: 0;
 }
 
-
-
-
-
 /* =========== Home ============= */
 
 .banner{
@@ -427,27 +286,6 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 420px;
-     /*background-size: contain;*/
-
-/* background-size: 100% auto;*/
-
-
-    /*height: 40 rem;*/
-    
-    /*border-radius: 20px;
-    margin: 20px 0px 50px 0px;
-    
-    
-    background-color: #C6C6C6;
-    color: white;
-    text-decoration: none;
-    background-size: 100% 100%;*/
-}
-
-.banner-title{ /*BORRAR*/
-    margin-top: 250px;
-    font-size: 42px; 
-    font-weight: 400;
 }
 
 .bannerTitle{
@@ -477,31 +315,14 @@ a:hover {
     padding: 5% 0;
     line-height:normal;
     font-weight: 100;
-
-    /*float: right;
-    
-    padding: 1.5em 0em 0em 0em;
-    width: 32em;
-
-    
-    line-height:normal;*/
 }
-
-
-
-
-
-
-
 
 .collapse .navbar-collapse{
     margin: -20px !important;
 }
 
 
-/* ====== Bannner ====== */
-
-
+/* ====== ScreenShots ====== */
 
 .screenShots{
     border: 2px solid darkgray;
@@ -514,16 +335,13 @@ a:hover {
 }
 
 
-
-
-
-
 /* ====== About ====== */
 
 .origin{
     margin: 1em 0 2em 0;
     padding: 0 0 0 1em;
 }
+
 
 /* ====== Works ====== */
 
