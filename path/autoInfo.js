@@ -2,8 +2,6 @@ var thisWork;
 
 function OnLoadHOME(banner, relevatWork1, relevatWork2, relevatWork3){
 
-    HideJavascriptAlert();
-
     var firstSlider = null;
     var secondSlider = null;
     var thirdSlider = null;
@@ -45,16 +43,16 @@ function OnLoadHOME(banner, relevatWork1, relevatWork2, relevatWork3){
 }
 
 function OnLoadABOUT(){
-    HideJavascriptAlert();
+
 }
 
 function OnLoadCONTACT(){
-    HideJavascriptAlert();
+
 }
 
 
 function OnLoadALLWORKS(){
-    HideJavascriptAlert();
+
 
     works.forEach(element => {
         thisWork = element;
@@ -65,7 +63,7 @@ function OnLoadALLWORKS(){
 
 
 function OnLoadTHISWORK(nameWork){
-    HideJavascriptAlert();
+
 
     works.forEach(element => {
         
@@ -88,9 +86,6 @@ function OnLoadTHISWORK(nameWork){
     LoadShereLinks();
 }
 
-function HideJavascriptAlert(){
-    document.getElementById("jsAlert").classList.add("elementOff");
-}
 
 
 function CreateBanner(){
