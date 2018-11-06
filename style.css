@@ -89,8 +89,9 @@ nav .navbar-nav li a{
 
 .separatorSub{
     background-color: rgb(206, 204, 204);
-    height: 1px;
-    width: 100%
+    border-radius: 10px;
+    height: 4px;
+    width: 58%
 }
 
 .separatorMarginTop{
