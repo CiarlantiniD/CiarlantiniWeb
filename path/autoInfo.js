@@ -40,10 +40,11 @@ function OnLoadHOME(banner, relevatWork1, relevatWork2, relevatWork3){
         CreateSliders("relevant");
     }
 
+    LoadedItems();
 }
 
 function OnLoadABOUT(){
-
+    
 }
 
 function OnLoadCONTACT(){
@@ -58,6 +59,8 @@ function OnLoadALLWORKS(){
         thisWork = element;
         CreateSliders(thisWork.category);
     });
+
+    LoadedItems();
 }
 
 
@@ -84,8 +87,13 @@ function OnLoadTHISWORK(nameWork){
     LoadRequeriments();
     LoadScreenShots();
     LoadShereLinks();
+
+    LoadedItems();
 }
 
+function LoadedItems(){
+    document.getElementById("LoadingText").classList.add("elementOff");
+}
 
 
 function CreateBanner(){
@@ -415,6 +423,11 @@ function LoadShereLinks(){
             link.href = element;
             div.textContent = "Formulario";
             div.classList.add("linksboxForm");
+        }
+        else if(0 <= element.search("document")){
+            link.href = element;
+            div.textContent = "PDF";
+            div.classList.add("linksboxDocument");
         }
         else{
             div.classList.add("elementOff");
