@@ -87,6 +87,8 @@ function OnLoadTHISWORK(nameWork){
     LoadRequeriments();
     LoadScreenShots();
     LoadShereLinks();
+
+    LoadedItems();
 }
 
 function LoadedItems(){
