@@ -418,11 +418,11 @@ function LoadShereLinks(){
         }
         else if(0 <= element.search("document")){
             link.href = element;
-            div.textContent = "Documento";
+            div.textContent = "PDF";
             div.classList.add("linksboxDocument");
         }
         else{
-            div.classList.add("linksboxDocument");
+            div.classList.add("elementOff");
         }
 
         i++;
