@@ -272,7 +272,7 @@ var works = [
     "staff": "(Diseño)Darío Ciarlantini;();();();()",
     "ssNumber": 5,
     "link1": "https://github.com/CiarlantiniD/Counter-Strike-Map",
-    "link2": "",
+    "link2": "../document/Nivel_Design_Document_v2.pdf",
     "link3": "",
     "link4": "",
     "dateAdded": "1/01/2018",

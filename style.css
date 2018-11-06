@@ -249,6 +249,9 @@ nav .navbar-nav li a{
 .linksboxForm{color: #142675;}
 .linksboxForm:hover{color: white; background-color: #142675; border: 3px solid #142675;}
 
+.linksboxDocument{color: #142675;}
+.linksboxDocument:hover{color: white; background-color: #142675; border: 3px solid #142675;}
+
 
 /* =========== Footer ========== */
 
