@@ -40,10 +40,11 @@ function OnLoadHOME(banner, relevatWork1, relevatWork2, relevatWork3){
         CreateSliders("relevant");
     }
 
+    LoadedItems();
 }
 
 function OnLoadABOUT(){
-
+    
 }
 
 function OnLoadCONTACT(){
@@ -58,6 +59,8 @@ function OnLoadALLWORKS(){
         thisWork = element;
         CreateSliders(thisWork.category);
     });
+
+    LoadedItems();
 }
 
 
@@ -86,6 +89,9 @@ function OnLoadTHISWORK(nameWork){
     LoadShereLinks();
 }
 
+function LoadedItems(){
+    document.getElementById("LoadingText").classList.add("elementOff");
+}
 
 
 function CreateBanner(){
