@@ -416,8 +416,13 @@ function LoadShereLinks(){
             div.textContent = "Formulario";
             div.classList.add("linksboxForm");
         }
+        else if(0 <= element.search("document")){
+            link.href = element;
+            div.textContent = "Documento";
+            div.classList.add("linksboxDocument");
+        }
         else{
-            div.classList.add("elementOff");
+            div.classList.add("linksboxDocument");
         }
 
         i++;
